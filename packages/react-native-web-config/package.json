@@ -1,0 +1,30 @@
+{
+  "name": "react-native-web-config",
+  "version": "0.0.3",
+  "description": "react-native-config for Web",
+  "keywords": [
+    "react-native-config",
+    "web"
+  ],
+  "license": "MIT",
+  "repository": "https://github.com/preflower/react-native-web-adapter/react-native-web-config",
+  "author": "Ted Lin <preflower.lin@gmail.com> (https://github.com/preflower)",
+  "files": [
+    "index.js",
+    "plugin.js"
+  ],
+  "main": "index.js",
+  "bugs": {
+    "url": "https://github.com/preflower/react-native-web-adapter/issues"
+  },
+  "homepage": "https://github.com/preflower/react-native-web-adapter/react-native-web-config",
+  "peerDependencies": {
+    "webpack": "*"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.68.0"
+  }
+}
