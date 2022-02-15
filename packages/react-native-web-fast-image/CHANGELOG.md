@@ -1,5 +1,11 @@
 # react-native-web-fast-image
 
+## 0.0.3
+
+### Patch Changes
+
+- 3752bfa: fix resizeMode is not defined
+
 ## 0.0.2
 
 ### Patch Changes
