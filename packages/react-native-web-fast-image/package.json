@@ -10,8 +10,7 @@
   "repository": "https://github.com/preflower/react-native-web-adapter/react-native-web-fast-image",
   "author": "Ted Lin <preflower.lin@gmail.com> (https://github.com/preflower)",
   "files": [
-    "index.js",
-    "plugin.js"
+    "dist"
   ],
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm-bundler.js",
