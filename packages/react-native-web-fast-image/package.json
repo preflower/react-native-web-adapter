@@ -25,5 +25,8 @@
     "@types/react-native": "^0.63.60",
     "react-native": "^0.65.1",
     "react-native-fast-image": "^8.5.11"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
