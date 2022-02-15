@@ -7,7 +7,7 @@
     "web"
   ],
   "license": "MIT",
-  "repository": "https://github.com/preflower/react-native-web-adapter/react-native-web-fast-image",
+  "repository": "https://github.com/preflower/react-native-web-adapter/tree/master/packages/react-native-web-fast-image",
   "author": "Ted Lin <preflower.lin@gmail.com> (https://github.com/preflower)",
   "files": [
     "dist"
@@ -17,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/preflower/react-native-web-adapter/issues"
   },
-  "homepage": "https://github.com/preflower/react-native-web-adapter/react-native-web-fast-image",
+  "homepage": "https://github.com/preflower/react-native-web-adapter/tree/master/packages/react-native-web-fast-image",
   "peerDependencies": {
     "react-native": "*"
   },

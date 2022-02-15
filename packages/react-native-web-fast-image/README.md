@@ -1,6 +1,6 @@
-# react-native-web-config
+# react-native-web-fast-image
 
-[![npm version](https://badge.fury.io/js/react-native-web-fast-image.svg)](https://badge.fury.io/js/react-native-web-fast-image)
+[![npm version](https://badge.fury.io/js/@preflower%2Freact-native-web-fast-image.svg)](https://badge.fury.io/js/@preflower%2Freact-native-web-fast-image)
 
 [react-native-fast-image](https://github.com/DylanVann/react-native-fast-image) for Web.
 
