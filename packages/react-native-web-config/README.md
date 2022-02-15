@@ -10,8 +10,12 @@ Inspired by [react-web-config](https://github.com/tanhauhau/react-web-config)
 This repository purpose is to repair `react-web-config` not support webpack 3 or above version error.
 
 ## Usage
+```bash
+$ npm i react-native-web-config
+```
+
+webpack.config.js
 ```diff
-  // webpack.config.js
   const webpack = require('webpack');
 + const ReactNativeWebConfig = require('react-native-web-config/plugin');
 + const path = require('path');
