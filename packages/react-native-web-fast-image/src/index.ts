@@ -10,23 +10,23 @@ type FastImageWithStatic = typeof Image & {
   clearDiskCache: () => Promise<void>
 }
 
-declare const cacheControl: {
-  readonly immutable: 'immutable'
-  readonly web: 'web'
-  readonly cacheOnly: 'cacheOnly'
+enum cacheControl {
+  immutable = 'immutable',
+  web = 'web',
+  cacheOnly = 'cacheOnly'
 }
 
-declare const priority: {
-  readonly low: 'low'
-  readonly normal: 'normal'
-  readonly high: 'high'
+enum priority {
+  low = 'low',
+  normal = 'normal',
+  high = 'high'
 }
 
-declare const resizeMode: {
-  readonly contain: 'contain'
-  readonly cover: 'cover'
-  readonly stretch: 'stretch'
-  readonly center: 'center'
+enum resizeMode {
+  contain = 'contain',
+  cover = 'cover',
+  stretch = 'stretch',
+  center = 'center'
 }
 
 const FastImage = Image as FastImageWithStatic
