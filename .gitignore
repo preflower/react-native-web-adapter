@@ -1,0 +1,6 @@
+node_modules/
+dist/
+
+# changeset release
+.pnpm-store
+.npmrc

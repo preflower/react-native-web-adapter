@@ -1,0 +1,29 @@
+{
+  "name": "react-native-web-fast-image",
+  "version": "0.0.0",
+  "description": "react-native-fast-image for Web",
+  "keywords": [
+    "react-native-fast-image",
+    "web"
+  ],
+  "license": "MIT",
+  "repository": "https://github.com/preflower/react-native-web-adapter/react-native-web-fast-image",
+  "author": "Ted Lin <preflower.lin@gmail.com> (https://github.com/preflower)",
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm-bundler.js",
+  "bugs": {
+    "url": "https://github.com/preflower/react-native-web-adapter/issues"
+  },
+  "homepage": "https://github.com/preflower/react-native-web-adapter/react-native-web-fast-image",
+  "peerDependencies": {
+    "react-native": "*"
+  },
+  "devDependencies": {
+    "@types/react-native": "^0.63.60",
+    "react-native": "^0.65.1",
+    "react-native-fast-image": "^8.5.11"
+  }
+}
