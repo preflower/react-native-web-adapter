@@ -22,6 +22,9 @@ async function build (target) {
   const pkgDir = path.resolve(`packages/${target}`)
   const pkg = require(`${pkgDir}/package.json`)
 
+  // allow packages to skip build
+  if (pkg.skipBuild) return
+
   const spinner = ora(`Building ${pkg.name} \r`).start()
 
   try {

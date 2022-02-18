@@ -6,6 +6,7 @@
     "react-native-config",
     "web"
   ],
+  "skipBuild": "true",
   "license": "MIT",
   "repository": "https://github.com/preflower/react-native-web-adapter/tree/master/packages/react-native-web-config",
   "author": "Ted Lin <preflower.lin@gmail.com> (https://github.com/preflower)",
