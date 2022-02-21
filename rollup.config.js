@@ -12,6 +12,9 @@ const resolve = p => path.resolve(packageDir, p)
 const pkg = require(resolve('package.json'))
 const packageOptions = pkg.buildOptions || {}
 
+// ensure TS checks only once for each build
+let hasTSChecked = false
+
 const outputConfigs = {
   esm: {
     file: resolve('dist/index.esm-bundler.js'),
@@ -35,6 +38,21 @@ function createConfig (format, output) {
   output.exports = 'named'
   output.externalLiveBindings = false
 
+  const typescript = ts({
+    check: !hasTSChecked,
+    tsconfig: path.resolve(__dirname, 'tsconfig.json'),
+    cacheRoot: path.resolve(__dirname, 'node_modules/.rts2_cache'),
+    tsconfigOverride: {
+      compilerOptions: {
+        declaration: !hasTSChecked
+      },
+      exclude: [
+        'example/'
+      ]
+    }
+  })
+  hasTSChecked = true
+  console.log(resolve('src/index.ts'))
   return {
     input: resolve('src/index.ts'),
     external: [
@@ -45,9 +63,7 @@ function createConfig (format, output) {
     ],
     output,
     plugins: [
-      ts({
-        tsconfig: path.resolve(__dirname, 'tsconfig.json')
-      }),
+      typescript,
       css({
         output: 'index.css',
         minify: true

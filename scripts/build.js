@@ -46,6 +46,19 @@ async function build (target) {
       ],
       { stdio: 'inherit' }
     )
+
+    // build types
+    const { Extractor, ExtractorConfig } = require('@microsoft/api-extractor')
+
+    const extractorConfigPath = path.resolve(pkgDir, 'api-extractor.json')
+    const extractorConfig = ExtractorConfig.loadFileAndPrepare(extractorConfigPath)
+    Extractor.invoke(extractorConfig, {
+      localBuild: true,
+      showVerboseMessages: true
+    })
+
+    await fs.remove(`${pkgDir}/dist/packages`)
+
     spinner.succeed()
   } catch (e) {
     spinner.fail()
