@@ -53,11 +53,11 @@ importers:
 
   packages/react-native-web-fast-image:
     specifiers:
-      '@types/react-native': ^0.63.60
+      '@types/react-native': ^0.66.16
       react-native: ^0.65.1
       react-native-fast-image: ^8.5.11
     devDependencies:
-      '@types/react-native': 0.63.60
+      '@types/react-native': 0.66.16
       react-native: 0.65.2
       react-native-fast-image: 8.5.11_react-native@0.65.2
 
@@ -1850,8 +1850,8 @@ packages:
     resolution: {integrity: sha512-rZ5drC/jWjrArrS8BR6SIr4cWpW09RNTYt9AMZo3Jwwif+iacXAqgVjm0B0Bv/S1jhDXKHqRVNCbACkJ89RAnQ==}
     dev: true
 
-  /@types/react-native/0.63.60:
-    resolution: {integrity: sha512-AHWCfwXZr3ESbD1G6hAKF+6w986RchYycj+4dm1psAYTEnKCpZAtPM01qrJwb8CI3OCmJ1bl8kAPNzmcnRdfYg==}
+  /@types/react-native/0.66.16:
+    resolution: {integrity: sha512-TsMV/4gW9WTu/6Iuyrm8+UaClIcgJ+1FqVUqDgMvp/Ys+cF+q1GFid3ZPYHYmVZTfOoowY+e3Vd8zFufVL7HLQ==}
     dependencies:
       '@types/react': 17.0.39
     dev: true
