@@ -1,5 +1,11 @@
 # react-native-web-fast-image
 
+## 0.1.0
+
+### Minor Changes
+
+- 25e5cdb: feat: support typescript declaration
+
 ## 0.0.4
 
 ### Patch Changes
