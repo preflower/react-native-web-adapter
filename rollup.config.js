@@ -1,5 +1,6 @@
 import path from 'path'
 import ts from 'rollup-plugin-typescript2'
+import css from 'rollup-plugin-import-css'
 
 if (!process.env.TARGET) {
   throw new Error('TARGET package must be specified via --environment flag.')
@@ -36,11 +37,20 @@ function createConfig (format, output) {
 
   return {
     input: resolve('src/index.ts'),
-    external: [/@babel\/runtime/, 'react-native'],
+    external: [
+      /@babel\/runtime/,
+      'react',
+      'react-dom',
+      'react-native'
+    ],
     output,
     plugins: [
       ts({
         tsconfig: path.resolve(__dirname, 'tsconfig.json')
+      }),
+      css({
+        output: 'index.css',
+        minify: true
       })
     ],
     treeshake: {

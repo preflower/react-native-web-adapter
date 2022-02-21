@@ -17,10 +17,16 @@
     "resolveJsonModule": true,
     "esModuleInterop": true,
     "removeComments": false,
-    "jsx": "preserve",
+    "jsx": "react",
     "lib": ["esnext", "dom"],
     "types": ["node"],
     "rootDir": "."
   },
-  "include": ["packages/*/src", "packages/index"]
+  "include": [
+    "example/",
+    "packages/*/src"
+  ],
+  "exclude": [
+    "node_modules/"
+  ]
 }
