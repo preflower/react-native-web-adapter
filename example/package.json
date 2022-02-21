@@ -8,7 +8,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@preflower/react-native-web-fast-image": "workspace:^0.0.3",
+    "@preflower/react-native-web-fast-image": "workspace:^0.0.4",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },

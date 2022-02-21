@@ -29,8 +29,8 @@ importers:
       '@commitlint/config-conventional': 16.2.1
       '@microsoft/api-extractor': 7.19.4
       '@preflower/eslint-config': 1.0.2_eslint@8.9.0+typescript@4.5.5
-      '@rollup/plugin-commonjs': 21.0.1_rollup@2.67.2
-      '@rollup/plugin-node-resolve': 13.1.3_rollup@2.67.2
+      '@rollup/plugin-commonjs': 21.0.1_rollup@2.67.3
+      '@rollup/plugin-node-resolve': 13.1.3_rollup@2.67.3
       eslint: 8.9.0
       execa: 4.1.0
       fs-extra: 10.0.0
@@ -38,15 +38,15 @@ importers:
       lint-staged: 12.3.4
       minimist: 1.2.5
       ora: 5.4.1
-      rollup: 2.67.2
-      rollup-plugin-import-css: 3.0.2_rollup@2.67.2
-      rollup-plugin-typescript2: 0.31.2_rollup@2.67.2+typescript@4.5.5
+      rollup: 2.67.3
+      rollup-plugin-import-css: 3.0.2_rollup@2.67.3
+      rollup-plugin-typescript2: 0.31.2_rollup@2.67.3+typescript@4.5.5
       tslib: 2.3.1
       typescript: 4.5.5
 
   example:
     specifiers:
-      '@preflower/react-native-web-fast-image': workspace:^0.0.3
+      '@preflower/react-native-web-fast-image': workspace:^0.0.4
       '@types/react': ^17.0.33
       '@types/react-dom': ^17.0.10
       '@vitejs/plugin-react': ^1.0.7
@@ -1744,7 +1744,7 @@ packages:
     resolution: {integrity: sha512-0jbp4RxjYopTsIdLl+/Fy2TiwVYHy4mgeu07DG4b/LyM0OS/+lPP5c9sbnt/AMlnF6qz2JRZpPpGw1eMNS6A4w==}
     dev: true
 
-  /@rollup/plugin-commonjs/21.0.1_rollup@2.67.2:
+  /@rollup/plugin-commonjs/21.0.1_rollup@2.67.3:
     resolution: {integrity: sha512-EA+g22lbNJ8p5kuZJUYyhhDK7WgJckW5g4pNN7n4mAFUM96VuwUnNT3xr2Db2iCZPI1pJPbGyfT5mS9T1dHfMg==}
     engines: {node: '>= 8.0.0'}
     peerDependencies:
@@ -1962,8 +1962,8 @@ packages:
       '@types/react': 17.0.39
     dev: true
 
-  /@types/react-native/0.63.60:
-    resolution: {integrity: sha512-AHWCfwXZr3ESbD1G6hAKF+6w986RchYycj+4dm1psAYTEnKCpZAtPM01qrJwb8CI3OCmJ1bl8kAPNzmcnRdfYg==}
+  /@types/react-native/0.66.16:
+    resolution: {integrity: sha512-TsMV/4gW9WTu/6Iuyrm8+UaClIcgJ+1FqVUqDgMvp/Ys+cF+q1GFid3ZPYHYmVZTfOoowY+e3Vd8zFufVL7HLQ==}
     dependencies:
       '@types/react': 17.0.39
     dev: true
@@ -6986,16 +6986,16 @@ packages:
       glob: 7.2.0
     dev: true
 
-  /rollup-plugin-import-css/3.0.2_rollup@2.67.2:
+  /rollup-plugin-import-css/3.0.2_rollup@2.67.3:
     resolution: {integrity: sha512-4Y/U5EMQHomMlYSF0OBOo/XJSgfou+iHMfBOqneaX5Cp5BCyQn1YrUtXC6KYEPHPxTadC+oXhrTCr9yzRN2DyA==}
     peerDependencies:
       rollup: ^2.x.x
     dependencies:
       '@rollup/pluginutils': 4.1.2
-      rollup: 2.67.2
+      rollup: 2.67.3
     dev: true
 
-  /rollup-plugin-typescript2/0.31.2_rollup@2.67.2+typescript@4.5.5:
+  /rollup-plugin-typescript2/0.31.2_rollup@2.67.3+typescript@4.5.5:
     resolution: {integrity: sha512-hRwEYR1C8xDGVVMFJQdEVnNAeWRvpaY97g5mp3IeLnzhNXzSVq78Ye/BJ9PAaUfN4DXa/uDnqerifMOaMFY54Q==}
     peerDependencies:
       rollup: '>=1.26.3'
@@ -8060,7 +8060,7 @@ packages:
       esbuild: 0.14.22
       postcss: 8.4.6
       resolve: 1.22.0
-      rollup: 2.67.2
+      rollup: 2.67.3
     optionalDependencies:
       fsevents: 2.3.2
     dev: true
