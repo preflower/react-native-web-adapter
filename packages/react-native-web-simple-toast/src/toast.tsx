@@ -43,7 +43,6 @@ const Toast: React.FC<ToastProps> = (props) => {
       }}
       onEnter={() => {
         if (duration != null) {
-          console.log('trigger')
           setTimeout(() => setVisible(false), duration)
         }
       }}
