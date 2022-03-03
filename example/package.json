@@ -1,7 +1,7 @@
 {
   "name": "@react-native-web-adapter/example",
   "private": true,
-  "version": "0.0.2",
+  "version": "0.0.3",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@preflower/react-native-web-fast-image": "workspace:^0.1.0",
-    "@preflower/react-native-web-maps": "workspace:^0.0.1",
+    "@preflower/react-native-web-maps": "workspace:^0.0.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },

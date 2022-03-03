@@ -47,7 +47,7 @@ importers:
   example:
     specifiers:
       '@preflower/react-native-web-fast-image': workspace:^0.1.0
-      '@preflower/react-native-web-maps': workspace:^0.0.1
+      '@preflower/react-native-web-maps': workspace:^0.0.2
       '@types/react': ^17.0.39
       '@types/react-dom': ^17.0.10
       '@vitejs/plugin-react': ^1.0.7

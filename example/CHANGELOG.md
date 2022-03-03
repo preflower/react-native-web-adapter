@@ -1,5 +1,13 @@
 # @react-native-web-adapter/example
 
+## 0.0.3
+
+### Patch Changes
+
+- 16fd6f6: fix MapView not default output error
+- Updated dependencies [16fd6f6]
+  - @preflower/react-native-web-maps@0.0.2
+
 ## 0.0.2
 
 ### Patch Changes
