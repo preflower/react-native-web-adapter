@@ -1,6 +1,6 @@
 {
   "name": "@preflower/react-native-web-maps",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "react-native-maps for Web, base on @react-google-maps/api",
   "keywords": [
     "react-native-maps",
