@@ -25,7 +25,11 @@ export type GoogleMapProps = Omit<GoogleMapProps_2, 'center' | 'onClick' | 'onDb
 export { LoadScript }
 
 // @public (undocumented)
-export interface MapHandle {
+const MapView: ForwardRefExoticComponent<MapViewProps & RefAttributes<MapViewHandle>>;
+export default MapView;
+
+// @public (undocumented)
+export interface MapViewHandle {
     // (undocumented)
     animateCamera: (camera: Camera) => void;
     // (undocumented)
@@ -35,9 +39,6 @@ export interface MapHandle {
     // (undocumented)
     setCamera: (camera: Camera) => void;
 }
-
-// @public (undocumented)
-export const MapView: ForwardRefExoticComponent<MapViewProps & RefAttributes<MapHandle>>;
 
 // @public (undocumented)
 export interface MapViewProps extends GoogleMapProps {

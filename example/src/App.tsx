@@ -1,19 +1,18 @@
-import { LoadScript, MapView, Marker, MapViewHandle } from '@preflower/react-native-web-maps'
+import MapView, { LoadScript, Marker, MapViewHandle } from '@preflower/react-native-web-maps'
 import './App.css'
-import Icon from './marker.png'
-import Icon2 from './marker-selected.png'
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useRef } from 'react'
 
 function App (): JSX.Element {
-  const [icon, setIcon] = useState(Icon)
-  const map = useRef<MapViewHandle>()
+  const map = useRef<MapViewHandle | null>(null)
 
   useEffect(() => {
     setTimeout(() => {
       console.log(map.current?.getCamera())
       map.current?.animateToRegion({
         latitude: 52.52,
-        longitude: 13.3362866
+        longitude: 13.3362866,
+        latitudeDelta: 0.0922,
+        longitudeDelta: 0.0421
       })
     }, 2000)
   }, [])
@@ -22,9 +21,7 @@ function App (): JSX.Element {
     <LoadScript googleMapsApiKey="AIzaSyAcYur_B9FQCX7jN_GmK962RB3j5lUpg3g">
       <div className="App">
         <MapView
-          ref={(instance) => {
-            map.current = instance
-          }}
+          ref={map}
           style={{
             width: '100vw',
             height: '100vh'
@@ -55,11 +52,6 @@ function App (): JSX.Element {
             onDragStart={(e) => { console.log('onDragStart Marker', e.nativeEvent) }}
             onDragEnd={(e) => { console.log('onDragEnd Marker', e.nativeEvent) }}
             draggable
-            onPress={() => {
-              setIcon(i => {
-                return i === Icon ? Icon2 : Icon
-              })
-            }}
           />
         </MapView>
       </div>

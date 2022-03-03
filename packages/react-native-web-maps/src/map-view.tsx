@@ -5,7 +5,7 @@ import { useUpdateEffect } from 'react-use'
 
 import { calcZoom, zoomReverseDelta } from './utils'
 import { DEFAULT_OPTIONS, MAP_TYPE_MAPS, DEFAULT_REGION } from './config'
-import { MapHandle, MapViewProps } from './types'
+import { MapViewHandle, MapViewProps } from './types'
 
 const MapView = forwardRef(function MapView ({
   region,
@@ -26,7 +26,7 @@ const MapView = forwardRef(function MapView ({
   onDoublePress,
   onPanDrag,
   ...props
-}: MapViewProps, ref: ForwardedRef<MapHandle>) {
+}: MapViewProps, ref: ForwardedRef<MapViewHandle>) {
   const instance = useRef<google.maps.Map>()
   const options: google.maps.MapOptions = useMemo(() => {
     return Object.assign(DEFAULT_OPTIONS, {

@@ -209,158 +209,6 @@
           }
         },
         {
-          "kind": "Interface",
-          "canonicalReference": "@preflower/react-native-web-maps!MapHandle:interface",
-          "docComment": "",
-          "excerptTokens": [
-            {
-              "kind": "Content",
-              "text": "export interface MapHandle "
-            }
-          ],
-          "releaseTag": "Public",
-          "name": "MapHandle",
-          "members": [
-            {
-              "kind": "PropertySignature",
-              "canonicalReference": "@preflower/react-native-web-maps!MapHandle#animateCamera:member",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "animateCamera: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "(camera: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "Camera",
-                  "canonicalReference": "!\"\\\"react-native-maps\\\"\".Camera:interface"
-                },
-                {
-                  "kind": "Content",
-                  "text": ") => void"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isOptional": false,
-              "releaseTag": "Public",
-              "name": "animateCamera",
-              "propertyTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 4
-              }
-            },
-            {
-              "kind": "PropertySignature",
-              "canonicalReference": "@preflower/react-native-web-maps!MapHandle#animateToRegion:member",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "animateToRegion: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "(region: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "Region",
-                  "canonicalReference": "!\"\\\"react-native-maps\\\"\".Region:interface"
-                },
-                {
-                  "kind": "Content",
-                  "text": ") => void"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isOptional": false,
-              "releaseTag": "Public",
-              "name": "animateToRegion",
-              "propertyTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 4
-              }
-            },
-            {
-              "kind": "PropertySignature",
-              "canonicalReference": "@preflower/react-native-web-maps!MapHandle#getCamera:member",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "getCamera: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "() => "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "Camera",
-                  "canonicalReference": "!\"\\\"react-native-maps\\\"\".Camera:interface"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isOptional": false,
-              "releaseTag": "Public",
-              "name": "getCamera",
-              "propertyTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 3
-              }
-            },
-            {
-              "kind": "PropertySignature",
-              "canonicalReference": "@preflower/react-native-web-maps!MapHandle#setCamera:member",
-              "docComment": "",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "setCamera: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "(camera: "
-                },
-                {
-                  "kind": "Reference",
-                  "text": "Camera",
-                  "canonicalReference": "!\"\\\"react-native-maps\\\"\".Camera:interface"
-                },
-                {
-                  "kind": "Content",
-                  "text": ") => void"
-                },
-                {
-                  "kind": "Content",
-                  "text": ";"
-                }
-              ],
-              "isOptional": false,
-              "releaseTag": "Public",
-              "name": "setCamera",
-              "propertyTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 4
-              }
-            }
-          ],
-          "extendsTokenRanges": []
-        },
-        {
           "kind": "Variable",
           "canonicalReference": "@preflower/react-native-web-maps!MapView:var",
           "docComment": "",
@@ -402,8 +250,8 @@
             },
             {
               "kind": "Reference",
-              "text": "MapHandle",
-              "canonicalReference": "@preflower/react-native-web-maps!MapHandle:interface"
+              "text": "MapViewHandle",
+              "canonicalReference": "@preflower/react-native-web-maps!MapViewHandle:interface"
             },
             {
               "kind": "Content",
@@ -416,6 +264,158 @@
             "startIndex": 1,
             "endIndex": 10
           }
+        },
+        {
+          "kind": "Interface",
+          "canonicalReference": "@preflower/react-native-web-maps!MapViewHandle:interface",
+          "docComment": "",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export interface MapViewHandle "
+            }
+          ],
+          "releaseTag": "Public",
+          "name": "MapViewHandle",
+          "members": [
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@preflower/react-native-web-maps!MapViewHandle#animateCamera:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "animateCamera: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "(camera: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Camera",
+                  "canonicalReference": "!\"\\\"react-native-maps\\\"\".Camera:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ") => void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "animateCamera",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 4
+              }
+            },
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@preflower/react-native-web-maps!MapViewHandle#animateToRegion:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "animateToRegion: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "(region: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Region",
+                  "canonicalReference": "!\"\\\"react-native-maps\\\"\".Region:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ") => void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "animateToRegion",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 4
+              }
+            },
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@preflower/react-native-web-maps!MapViewHandle#getCamera:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "getCamera: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "() => "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Camera",
+                  "canonicalReference": "!\"\\\"react-native-maps\\\"\".Camera:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "getCamera",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 3
+              }
+            },
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@preflower/react-native-web-maps!MapViewHandle#setCamera:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "setCamera: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "(camera: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Camera",
+                  "canonicalReference": "!\"\\\"react-native-maps\\\"\".Camera:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ") => void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "setCamera",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 4
+              }
+            }
+          ],
+          "extendsTokenRanges": []
         },
         {
           "kind": "Interface",

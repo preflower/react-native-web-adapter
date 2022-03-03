@@ -11,7 +11,7 @@ export type GoogleMapProps = Omit<OriginGoogleMapProps,
 'onLoad'
 >
 
-export interface MapHandle {
+export interface MapViewHandle {
   getCamera: () => Camera
   setCamera: (camera: Camera) => void
   animateCamera: (camera: Camera) => void
