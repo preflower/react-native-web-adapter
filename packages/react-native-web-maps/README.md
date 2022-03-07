@@ -29,7 +29,7 @@ webpack.config.js
 
 App.web.tsx/jsx
 ```
-<!-- Before use Google Maps, you need to initializ it first -->
+<!-- Before use Google Maps, you need to initialize it first -->
 import { LoadScript } from '@preflower/react-native-web-maps'
 
 const App = () => {
@@ -87,6 +87,10 @@ const App = () => {
 - onDrag
 - onDragStart
 - onDragEnd
+
+## Notice
+- all style property not support React-Native StyleSheet, because react-native-web
+  convert it into class, it will result exception
 
 ## Develop Plan
 At present, library is only used by myself, so i only developed the features that i needed,

@@ -54,7 +54,7 @@ function createConfig (format, output) {
     }
   })
   hasTSChecked = true
-  console.log(resolve('src/index.ts'))
+
   return {
     input: resolve('src/index.ts'),
     external: [

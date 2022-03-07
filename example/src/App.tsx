@@ -7,7 +7,7 @@ function App (): JSX.Element {
 
   useEffect(() => {
     setTimeout(() => {
-      console.log(map.current?.getCamera())
+      // console.log(map.current?.getCamera())
       map.current?.animateToRegion({
         latitude: 52.52,
         longitude: 13.3362866,
