@@ -120,17 +120,31 @@ const MapView = forwardRef(function MapView ({
     }
   }
 
+  const onChangeComplete = (): void => {
+    const _region = getCurrentRegion()
+    onRegionChange?.(_region, { isGesture: true })
+    onRegionChangeComplete?.(_region, { isGesture: true })
+  }
+
   const onZoomChanged = (): void => {
     // fix onZoomChanged be triggered before onLoad callback
     if (instance.current == null) return
 
-    const _region = getCurrentRegion()
-    onRegionChange?.(_region, { isGesture: false })
-    onRegionChangeComplete?.(_region, { isGesture: false })
+    onChangeComplete()
+  }
+
+  // ignore onIdle event when Map ready
+  const hasIdleTriggerd = useRef(false)
+
+  const onIdle = (): void => {
+    if (!hasIdleTriggerd.current) {
+      hasIdleTriggerd.current = true
+      return
+    }
+    onChangeComplete()
   }
 
   const onDrag = (): void => {
-    console.log('onDrag')
     const _region = getCurrentRegion()
     onRegionChange?.(_region, { isGesture: true })
     onPanDrag?.({
@@ -143,13 +157,6 @@ const MapView = forwardRef(function MapView ({
         }
       }
     })
-  }
-
-  const onDragEnd = (): void => {
-    console.log('onDragEnd')
-    const _region = getCurrentRegion()
-    onRegionChange?.(_region, { isGesture: true })
-    onRegionChangeComplete?.(_region, { isGesture: true })
   }
 
   const onClick = (e: google.maps.MapMouseEvent): void => {
@@ -189,9 +196,9 @@ const MapView = forwardRef(function MapView ({
       onLoad={onLoad}
       onZoomChanged={onZoomChanged}
       onDrag={onDrag}
-      onDragEnd={onDragEnd}
       onClick={onClick}
       onDblClick={onDblClick}
+      onIdle={onIdle}
       {...props}
     />
   )
