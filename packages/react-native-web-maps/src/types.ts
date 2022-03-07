@@ -100,5 +100,5 @@ export interface MarkerProps extends Omit<OriginMarkerProps, 'position' | 'onCli
   /**
    * options.scaledSize
    */
-  scaledSize: { width: number, height: number }
+  scaledSize?: { width: number, height: number }
 }

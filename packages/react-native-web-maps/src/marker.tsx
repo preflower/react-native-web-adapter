@@ -24,10 +24,12 @@ const Marker: React.FC<MarkerProps> = ({
         url,
         origin: new google.maps.Point(anchor.x, anchor.y)
       }
-      i.scaledSize = new google.maps.Size(scaledSize.height, scaledSize.width)
+      if (scaledSize != null) {
+        i.scaledSize = new google.maps.Size(scaledSize.height, scaledSize.width)
+      }
       return i
     }
-  }, [image, provideIcon])
+  }, [image, provideIcon, scaledSize])
 
   const onClick = (e: google.maps.MapMouseEvent): void => {
     onPress?.({
