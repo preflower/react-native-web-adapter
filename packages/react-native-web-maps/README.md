@@ -1,6 +1,6 @@
 # react-native-web-maps
 
-[![npm version](https://badge.fury.io/js/@preflower%2react-native-web-maps.svg)](https://badge.fury.io/js/@preflower%2react-native-web-maps)
+[![npm version](https://badge.fury.io/js/@preflower%2Freact-native-web-maps.svg)](https://badge.fury.io/js/@preflower%2Freact-native-web-maps)
 
 [react-native-maps](https://github.com/react-native-maps/react-native-maps) for Web.
 
