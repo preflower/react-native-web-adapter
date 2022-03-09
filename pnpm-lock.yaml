@@ -49,7 +49,7 @@ importers:
       '@babel/preset-react': ^7.16.7
       '@babel/runtime': ^7.17.2
       '@preflower/react-native-web-fast-image': workspace:^0.1.0
-      '@preflower/react-native-web-maps': workspace:^0.0.2
+      '@preflower/react-native-web-maps': workspace:^0.0.3
       '@svgr/webpack': ^6.2.1
       '@types/react': ^17.0.39
       '@types/react-dom': ^17.0.13
@@ -2284,7 +2284,7 @@ packages:
       ora: 3.4.0
       pretty-format: 26.6.2
       prompts: 2.4.2
-      react-native: 0.65.2_react@17.0.2
+      react-native: 0.65.2
       semver: 6.3.0
       serve-static: 1.14.2
       strip-ansi: 5.2.0
@@ -9455,7 +9455,7 @@ packages:
       serialize-javascript: 6.0.0
       source-map: 0.6.1
       terser: 5.10.0_acorn@8.7.0
-      webpack: 5.68.0_webpack-cli@4.9.2
+      webpack: 5.68.0
     transitivePeerDependencies:
       - acorn
     dev: true
