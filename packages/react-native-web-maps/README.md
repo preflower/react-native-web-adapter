@@ -89,8 +89,7 @@ const App = () => {
 - onDragEnd
 
 ## Notice
-- all style property not support React-Native StyleSheet, because react-native-web
-  convert it into class, it will result exception
+- In addition to `style`, other style property (such as `mapContainerStyle`) not support React-Native StyleSheet, because react-native-web convert it into class, it will result exception
 
 ## Develop Plan
 At present, library is only used by myself, so i only developed the features that i needed,

@@ -819,8 +819,21 @@
                 },
                 {
                   "kind": "Reference",
-                  "text": "React.CSSProperties",
-                  "canonicalReference": "@types/react!~React.CSSProperties:interface"
+                  "text": "StyleProp",
+                  "canonicalReference": "@types/react-native!StyleProp:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "ViewStyle",
+                  "canonicalReference": "@types/react-native!ViewStyle:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
                 },
                 {
                   "kind": "Content",
@@ -832,7 +845,7 @@
               "name": "style",
               "propertyTypeTokenRange": {
                 "startIndex": 1,
-                "endIndex": 2
+                "endIndex": 5
               }
             },
             {
@@ -1240,7 +1253,7 @@
               "excerptTokens": [
                 {
                   "kind": "Content",
-                  "text": "scaledSize: "
+                  "text": "scaledSize?: "
                 },
                 {
                   "kind": "Content",
@@ -1251,7 +1264,7 @@
                   "text": ";"
                 }
               ],
-              "isOptional": false,
+              "isOptional": true,
               "releaseTag": "Public",
               "name": "scaledSize",
               "propertyTypeTokenRange": {

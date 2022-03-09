@@ -1,4 +1,5 @@
 import { GoogleMapProps as OriginGoogleMapProps, MarkerProps as OriginMarkerProps } from '@react-google-maps/api'
+import { StyleProp, ViewStyle } from 'react-native'
 import { LatLng, Point, Region, MapEvent, Camera } from 'react-native-maps'
 import { MAP_TYPE_MAPS } from './config'
 
@@ -19,7 +20,7 @@ export interface MapViewHandle {
 }
 
 export interface MapViewProps extends GoogleMapProps {
-  style?: React.CSSProperties
+  style?: StyleProp<ViewStyle>
   /**
    * center
    */

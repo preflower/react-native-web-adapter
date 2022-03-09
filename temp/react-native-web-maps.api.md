@@ -18,6 +18,8 @@ import { Point } from 'react-native-maps';
 import { default as React_2 } from 'react';
 import { RefAttributes } from 'react';
 import { Region } from 'react-native-maps';
+import { StyleProp } from 'react-native';
+import { ViewStyle } from 'react-native';
 
 // @public (undocumented)
 export type GoogleMapProps = Omit<GoogleMapProps_2, 'center' | 'onClick' | 'onDblClick' | 'onDrag' | 'onDragEnd' | 'onLoad'>;
@@ -62,7 +64,7 @@ export interface MapViewProps extends GoogleMapProps {
     }) => void;
     region?: Region;
     // (undocumented)
-    style?: React.CSSProperties;
+    style?: StyleProp<ViewStyle>;
     zoomControlEnabled?: boolean;
     zoomEnabled?: boolean;
     zoomTapEnabled?: boolean;
@@ -87,7 +89,7 @@ export interface MarkerProps extends Omit<MarkerProps_2, 'position' | 'onClick' 
     onPress?: (event: MapEvent<{
         action: 'marker-press';
     }>) => void;
-    scaledSize: {
+    scaledSize?: {
         width: number;
         height: number;
     };

@@ -2,6 +2,7 @@ import { ForwardedRef, forwardRef, useImperativeHandle, useMemo, useRef, useStat
 import { GoogleMap } from '@react-google-maps/api'
 import { Region, Camera } from 'react-native-maps'
 import { useUpdateEffect } from 'react-use'
+import { View } from 'react-native'
 
 import { calcZoom, zoomReverseDelta } from './utils'
 import { DEFAULT_OPTIONS, MAP_TYPE_MAPS, DEFAULT_REGION } from './config'
@@ -188,19 +189,21 @@ const MapView = forwardRef(function MapView ({
   }
 
   return (
-    <GoogleMap
-      mapContainerStyle={style}
-      center={center}
-      zoom={zoom}
-      options={options}
-      onLoad={onLoad}
-      onZoomChanged={onZoomChanged}
-      onDrag={onDrag}
-      onClick={onClick}
-      onDblClick={onDblClick}
-      onIdle={onIdle}
-      {...props}
-    />
+    <View style={style}>
+      <GoogleMap
+        mapContainerStyle={{ height: '100%' }}
+        center={center}
+        zoom={zoom}
+        options={options}
+        onLoad={onLoad}
+        onZoomChanged={onZoomChanged}
+        onDrag={onDrag}
+        onClick={onClick}
+        onDblClick={onDblClick}
+        onIdle={onIdle}
+        {...props}
+      />
+    </View>
   )
 })
 
