@@ -1,5 +1,14 @@
 # @react-native-web-adapter/example
 
+## 0.0.4
+
+### Patch Changes
+
+- 1ba8ab9: chore: update README
+- Updated dependencies [2641516]
+- Updated dependencies [1ba8ab9]
+  - @preflower/react-native-web-maps@0.0.3
+
 ## 0.0.3
 
 ### Patch Changes
