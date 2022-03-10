@@ -1,5 +1,11 @@
 # @preflower/react-native-web-maps
 
+## 0.1.0
+
+### Minor Changes
+
+- f668610: add Polyline and Polygon support
+
 ## 0.0.3
 
 ### Patch Changes
