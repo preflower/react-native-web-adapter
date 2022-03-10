@@ -9,12 +9,15 @@
 
 import { Camera } from 'react-native-maps';
 import { ForwardRefExoticComponent } from 'react';
+import { FunctionComponent } from 'react';
 import { GoogleMapProps as GoogleMapProps_2 } from '@react-google-maps/api';
 import { LatLng } from 'react-native-maps';
 import { LoadScript } from '@react-google-maps/api';
 import { MapEvent } from 'react-native-maps';
 import { MarkerProps as MarkerProps_2 } from '@react-google-maps/api';
 import { Point } from 'react-native-maps';
+import { PolygonProps as PolygonProps_2 } from '@react-google-maps/api';
+import { PolylineProps as PolylineProps_2 } from '@react-google-maps/api';
 import { default as React_2 } from 'react';
 import { RefAttributes } from 'react';
 import { Region } from 'react-native-maps';
@@ -93,6 +96,48 @@ export interface MarkerProps extends Omit<MarkerProps_2, 'position' | 'onClick' 
         width: number;
         height: number;
     };
+}
+
+// @public (undocumented)
+export const Polygon: FunctionComponent<PolygonProps>;
+
+// @public (undocumented)
+export interface PolygonProps extends Omit<PolygonProps_2, 'path' | 'paths' | 'onClick'> {
+    // (undocumented)
+    coordinates: LatLng[];
+    // (undocumented)
+    fillColor?: string;
+    // (undocumented)
+    geodesic?: boolean;
+    // (undocumented)
+    holes: LatLng[][];
+    // (undocumented)
+    onPress?: (event: MapEvent) => void;
+    // (undocumented)
+    strokeColor?: string;
+    // (undocumented)
+    strokeWidth?: number;
+    // (undocumented)
+    tappable?: boolean;
+}
+
+// @public (undocumented)
+export const Polyline: FunctionComponent<PolylineProps>;
+
+// @public (undocumented)
+export interface PolylineProps extends Omit<PolylineProps_2, 'path' | 'onClick'> {
+    // (undocumented)
+    coordinates: LatLng[];
+    // (undocumented)
+    geodesic?: boolean;
+    // (undocumented)
+    onPress?: (event: MapEvent) => void;
+    // (undocumented)
+    strokeColor?: string;
+    // (undocumented)
+    strokeWidth?: number;
+    // (undocumented)
+    tappable?: boolean;
 }
 
 // (No @packageDocumentation comment for this package)

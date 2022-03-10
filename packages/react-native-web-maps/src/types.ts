@@ -1,4 +1,9 @@
-import { GoogleMapProps as OriginGoogleMapProps, MarkerProps as OriginMarkerProps } from '@react-google-maps/api'
+import {
+  GoogleMapProps as OriginGoogleMapProps,
+  MarkerProps as OriginMarkerProps,
+  PolylineProps as OriginPolylineProps,
+  PolygonProps as OriginPolygonProps
+} from '@react-google-maps/api'
 import { StyleProp, ViewStyle } from 'react-native'
 import { LatLng, Point, Region, MapEvent, Camera } from 'react-native-maps'
 import { MAP_TYPE_MAPS } from './config'
@@ -102,4 +107,24 @@ export interface MarkerProps extends Omit<OriginMarkerProps, 'position' | 'onCli
    * options.scaledSize
    */
   scaledSize?: { width: number, height: number }
+}
+
+export interface PolylineProps extends Omit<OriginPolylineProps, 'path' | 'onClick'> {
+  coordinates: LatLng[]
+  strokeWidth?: number
+  strokeColor?: string
+  geodesic?: boolean
+  tappable?: boolean
+  onPress?: (event: MapEvent) => void
+}
+
+export interface PolygonProps extends Omit<OriginPolygonProps, 'path' | 'paths' | 'onClick'> {
+  coordinates: LatLng[]
+  holes: LatLng[][]
+  strokeWidth?: number
+  strokeColor?: string
+  fillColor?: string
+  geodesic?: boolean
+  tappable?: boolean
+  onPress?: (event: MapEvent) => void
 }

@@ -73,7 +73,8 @@ const App = () => {
 
 ### Marker
 ***
-### Props
+
+#### Props
 - image
 - icon
   > image and icon are identical, both accept local image
@@ -82,11 +83,38 @@ const App = () => {
 - draggable
 - opacity
 
-### Events
+#### Events
 - onPress
 - onDrag
 - onDragStart
 - onDragEnd
+
+### Polygon
+***
+
+#### Props
+- coordinates
+- strokeWidth
+- strokeColor
+- fillColor
+- geodesic
+- tappable
+
+#### Events
+- onPress
+
+### Polyline
+***
+
+#### Props
+- coordinates
+- strokeWidth
+- strokeColor
+- geodesic
+- tappable
+
+#### Events
+- onPress
 
 ## Notice
 - In addition to `style`, other style property (such as `mapContainerStyle`) not support React-Native StyleSheet, because react-native-web convert it into class, it will result exception
