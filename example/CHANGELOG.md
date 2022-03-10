@@ -1,5 +1,13 @@
 # @react-native-web-adapter/example
 
+## 0.0.5
+
+### Patch Changes
+
+- f668610: add Polyline and Polygon support
+- Updated dependencies [f668610]
+  - @preflower/react-native-web-maps@0.1.0
+
 ## 0.0.4
 
 ### Patch Changes
