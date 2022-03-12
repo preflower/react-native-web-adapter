@@ -1,5 +1,11 @@
 # @preflower/react-native-web-maps
 
+## 0.1.1
+
+### Patch Changes
+
+- 55e57c7: fix deps lack error
+
 ## 0.1.0
 
 ### Minor Changes
