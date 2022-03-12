@@ -39,7 +39,7 @@ const MapView = forwardRef(function MapView ({
       minZoom: minZoomLevel,
       maxZoom: maxZoomLevel
     }, provideOptions)
-  }, [zoomEnabled, mapType, zoomControlEnabled, provideOptions])
+  }, [zoomEnabled, zoomControlEnabled, zoomTapEnabled, mapType, customMapStyle, minZoomLevel, maxZoomLevel, provideOptions])
   const [center, setCenter] = useState<google.maps.LatLngLiteral>(() => ({
     lat: region?.latitude ?? initialRegion?.latitude ?? DEFAULT_REGION.latitude,
     lng: region?.longitude ?? initialRegion?.longitude ?? DEFAULT_REGION.longitude

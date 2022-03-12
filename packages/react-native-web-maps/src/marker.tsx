@@ -29,7 +29,7 @@ const Marker: React.FC<MarkerProps> = ({
       }
       return i
     }
-  }, [image, provideIcon, scaledSize])
+  }, [anchor, image, provideIcon, scaledSize])
 
   const onClick = (e: google.maps.MapMouseEvent): void => {
     onPress?.({
