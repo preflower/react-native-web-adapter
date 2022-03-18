@@ -1,5 +1,13 @@
 # @react-native-web-adapter/example
 
+## 0.0.6
+
+### Patch Changes
+
+- 8448e56: update toast style that add horizontal spacing
+- Updated dependencies [8448e56]
+  - react-native-web-simple-toast@0.0.3
+
 ## 0.0.5
 
 ### Patch Changes
