@@ -11,9 +11,11 @@
     "@preflower/react-native-web-maps": "workspace:^0.1.0",
     "react": "^17.0.2",
     "react-native": "^0.65.1",
-    "react-native-web": "^0.17.7"
+    "react-native-web": "^0.17.7",
+    "react-native-web-simple-toast": "workspace:^0.0.2"
   },
   "devDependencies": {
+    "@babel/core": "^7.17.7",
     "@babel/preset-react": "^7.16.7",
     "@babel/runtime": "^7.17.2",
     "@svgr/webpack": "^6.2.1",
