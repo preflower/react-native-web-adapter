@@ -46,7 +46,7 @@ function Map (): JSX.Element {
   }, [])
 
   return (
-    <LoadScript googleMapsApiKey="AIzaSyAcYur_B9FQCX7jN_GmK962RB3j5lUpg3g">
+    <LoadScript googleMapsApiKey="">
       <div className="App">
         <MapView
           ref={map}
