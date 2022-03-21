@@ -5,7 +5,7 @@ importers:
   .:
     specifiers:
       '@changesets/cli': ^2.21.1
-      '@commitlint/cli': ^16.2.1
+      '@commitlint/cli': ^16.2.3
       '@commitlint/config-conventional': ^16.2.1
       '@microsoft/api-extractor': ^7.19.4
       '@preflower/eslint-config': ^1.0.2
@@ -25,7 +25,7 @@ importers:
       typescript: ^4.5.5
     devDependencies:
       '@changesets/cli': 2.21.1
-      '@commitlint/cli': 16.2.1
+      '@commitlint/cli': 16.2.3
       '@commitlint/config-conventional': 16.2.1
       '@microsoft/api-extractor': 7.19.4
       '@preflower/eslint-config': 1.0.2_eslint@8.9.0+typescript@4.5.5
@@ -2212,14 +2212,14 @@ packages:
       exec-sh: 0.3.6
       minimist: 1.2.5
 
-  /@commitlint/cli/16.2.1:
-    resolution: {integrity: sha512-zfKf+B9osuiDbxGMJ7bWFv7XFCW8wlQYPtCffNp7Ukdb7mdrep5R9e03vPUZysnwp8NX6hg05kPEvnD/wRIGWw==}
+  /@commitlint/cli/16.2.3:
+    resolution: {integrity: sha512-VsJBQLvhhlOgEfxs/Z5liYuK0dXqLE5hz1VJzLBxiOxG31kL/X5Q4OvK292BmO7IGZcm1yJE3XQPWSiFaEHbWA==}
     engines: {node: '>=v12'}
     hasBin: true
     dependencies:
       '@commitlint/format': 16.2.1
       '@commitlint/lint': 16.2.1
-      '@commitlint/load': 16.2.1
+      '@commitlint/load': 16.2.3
       '@commitlint/read': 16.2.1
       '@commitlint/types': 16.2.1
       lodash: 4.17.21
@@ -2285,8 +2285,8 @@ packages:
       '@commitlint/types': 16.2.1
     dev: true
 
-  /@commitlint/load/16.2.1:
-    resolution: {integrity: sha512-oSpz0jTyVI/A1AIImxJINTLDOMB8YF7lWGm+Jg5wVWM0r7ucpuhyViVvpSRTgvL0z09oIxlctyFGWUQQpI42uw==}
+  /@commitlint/load/16.2.3:
+    resolution: {integrity: sha512-Hb4OUlMnBUK6UxJEZ/VJ5k0LocIS7PtEMbRXEAA7eSpOgORIFexC4K/RaRpVd5UTtu3M0ST3ddPPijF9rdW6nw==}
     engines: {node: '>=v12'}
     dependencies:
       '@commitlint/config-validator': 16.2.1
