@@ -1,5 +1,11 @@
 # @preflower/react-native-web-maps
 
+## 0.2.0
+
+### Minor Changes
+
+- 455be68: feat: export `@react-google-maps/api` api
+
 ## 0.1.1
 
 ### Patch Changes

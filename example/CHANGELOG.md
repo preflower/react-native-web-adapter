@@ -1,5 +1,12 @@
 # @react-native-web-adapter/example
 
+## 0.0.7
+
+### Patch Changes
+
+- Updated dependencies [455be68]
+  - @preflower/react-native-web-maps@0.2.0
+
 ## 0.0.6
 
 ### Patch Changes
