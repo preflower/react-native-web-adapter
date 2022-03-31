@@ -1,14 +1,14 @@
 {
   "name": "@react-native-web-adapter/example",
   "private": true,
-  "version": "0.0.6",
+  "version": "0.0.7",
   "scripts": {
     "dev": "webpack serve --mode=development --config webpack.config.js",
     "build": "rm -rf dist/ && webpack --mode=production --config webpack.config.js"
   },
   "dependencies": {
     "@preflower/react-native-web-fast-image": "workspace:^0.1.0",
-    "@preflower/react-native-web-maps": "workspace:^0.1.0",
+    "@preflower/react-native-web-maps": "workspace:^0.2.0",
     "react": "^17.0.2",
     "react-native": "^0.65.1",
     "react-native-web": "^0.17.7",

@@ -50,7 +50,7 @@ importers:
       '@babel/preset-react': ^7.16.7
       '@babel/runtime': ^7.17.8
       '@preflower/react-native-web-fast-image': workspace:^0.1.0
-      '@preflower/react-native-web-maps': workspace:^0.1.0
+      '@preflower/react-native-web-maps': workspace:^0.2.0
       '@svgr/webpack': ^6.2.1
       '@types/react': ^17.0.43
       '@types/react-dom': ^17.0.14
