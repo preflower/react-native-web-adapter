@@ -1,6 +1,8 @@
 # react-native-web-config
 
 [![npm version](https://badge.fury.io/js/react-native-web-config.svg)](https://badge.fury.io/js/react-native-web-config)
+[![npm download](https://img.shields.io/npm/dt/react-native-web-config)](https://www.npmjs.com/package/react-native-web-config)
+![license](https://badgen.net/npm/license/react-native-web-config)
 
 [react-native-config](https://github.com/luggit/react-native-config) for Web.
 

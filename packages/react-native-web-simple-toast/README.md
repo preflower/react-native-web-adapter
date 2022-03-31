@@ -1,6 +1,8 @@
 # react-native-web-simple-toast
 
 [![npm version](https://badge.fury.io/js/react-native-web-simple-toast.svg)](https://badge.fury.io/js/react-native-web-simple-toast)
+[![npm download](https://img.shields.io/npm/dt/react-native-web-simple-toast)](https://www.npmjs.com/package/react-native-web-simple-toast)
+![license](https://badgen.net/npm/license/react-native-web-simple-toast)
 
 [react-native-simple-toast](https://github.com/vonovak/react-native-simple-toast) for Web.
 
