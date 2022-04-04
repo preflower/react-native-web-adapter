@@ -48,7 +48,7 @@
     "execa": "^4.1.0",
     "fs-extra": "^10.0.1",
     "husky": "^7.0.4",
-    "lint-staged": "^12.3.4",
+    "lint-staged": "^12.3.7",
     "minimist": "^1.2.5",
     "ora": "^5.4.1",
     "rollup": "^2.67.2",
