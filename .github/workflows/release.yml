@@ -1,8 +1,10 @@
-name: Changeset Release
+name: Release
 on:
   push:
     branches:
       - master
+    paths:
+      - '.changeset/**'
 env:
   CI: true
   PNPM_CACHE_FOLDER: .pnpm-store
