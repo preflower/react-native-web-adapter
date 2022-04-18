@@ -53,7 +53,7 @@ importers:
       '@preflower/react-native-web-maps': workspace:^0.2.0
       '@svgr/webpack': ^6.2.1
       '@types/react': ^17.0.44
-      '@types/react-dom': ^17.0.14
+      '@types/react-dom': ^17.0.15
       '@vitejs/plugin-react': ^1.0.7
       babel-loader: ^8.2.4
       babel-plugin-module-resolver: ^4.1.0
@@ -85,7 +85,7 @@ importers:
       '@babel/runtime': 7.17.9
       '@svgr/webpack': 6.2.1
       '@types/react': 17.0.44
-      '@types/react-dom': 17.0.14
+      '@types/react-dom': 17.0.15
       '@vitejs/plugin-react': 1.2.0
       babel-loader: 8.2.4_946587f10136daa442676193756a53cb
       babel-plugin-module-resolver: 4.1.0
@@ -3351,8 +3351,8 @@ packages:
     resolution: {integrity: sha512-EEhsLsD6UsDM1yFhAvy0Cjr6VwmpMWqFBCb9w07wVugF7w9nfajxLuVmngTIpgS6svCnm6Vaw+MZhoDCKnOfsw==}
     dev: true
 
-  /@types/react-dom/17.0.14:
-    resolution: {integrity: sha512-H03xwEP1oXmSfl3iobtmQ/2dHF5aBHr8aUMwyGZya6OW45G+xtdzmq6HkncefiBt5JU8DVyaWl/nWZbjZCnzAQ==}
+  /@types/react-dom/17.0.15:
+    resolution: {integrity: sha512-Tr9VU9DvNoHDWlmecmcsE5ZZiUkYx+nKBzum4Oxe1K0yJVyBlfbq7H3eXjxXqJczBKqPGq3EgfTru4MgKb9+Yw==}
     dependencies:
       '@types/react': 17.0.44
     dev: true
