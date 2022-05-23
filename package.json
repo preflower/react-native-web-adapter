@@ -49,7 +49,7 @@
     "fs-extra": "^10.0.1",
     "husky": "^7.0.4",
     "lint-staged": "^12.3.8",
-    "minimist": "^1.2.5",
+    "minimist": "^1.2.6",
     "ora": "^5.4.1",
     "rollup": "^2.67.2",
     "rollup-plugin-import-css": "^3.0.2",
