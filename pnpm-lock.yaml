@@ -53,7 +53,7 @@ importers:
       '@preflower/react-native-web-maps': workspace:^0.2.0
       '@svgr/webpack': ^6.2.1
       '@types/react': ^17.0.45
-      '@types/react-dom': ^17.0.16
+      '@types/react-dom': ^17.0.17
       '@vitejs/plugin-react': ^1.0.7
       babel-loader: ^8.2.5
       babel-plugin-module-resolver: ^4.1.0
@@ -85,7 +85,7 @@ importers:
       '@babel/runtime': 7.17.9
       '@svgr/webpack': 6.2.1
       '@types/react': 17.0.45
-      '@types/react-dom': 17.0.16
+      '@types/react-dom': 17.0.17
       '@vitejs/plugin-react': 1.2.0
       babel-loader: 8.2.5_d5c6be1685012c453b09f5267b347c36
       babel-plugin-module-resolver: 4.1.0
@@ -3397,8 +3397,8 @@ packages:
     resolution: {integrity: sha512-EEhsLsD6UsDM1yFhAvy0Cjr6VwmpMWqFBCb9w07wVugF7w9nfajxLuVmngTIpgS6svCnm6Vaw+MZhoDCKnOfsw==}
     dev: true
 
-  /@types/react-dom/17.0.16:
-    resolution: {integrity: sha512-DWcXf8EbMrO/gWnQU7Z88Ws/p16qxGpPyjTKTpmBSFKeE+HveVubqGO1CVK7FrwlWD5MuOcvh8gtd0/XO38NdQ==}
+  /@types/react-dom/17.0.17:
+    resolution: {integrity: sha512-VjnqEmqGnasQKV0CWLevqMTXBYG9GbwuE6x3VetERLh0cq2LTptFE73MrQi2S7GkKXCf2GgwItB/melLnxfnsg==}
     dependencies:
       '@types/react': 17.0.45
     dev: true
@@ -8937,7 +8937,6 @@ packages:
       object-assign: 4.1.1
       react: 17.0.2
       scheduler: 0.20.2
-    dev: true
 
   /react-is/16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
@@ -9031,7 +9030,6 @@ packages:
       - encoding
       - supports-color
       - utf-8-validate
-    dev: true
 
   /react-native/0.65.2_react@17.0.2:
     resolution: {integrity: sha512-0pzZFmSv38691PB2Zj2JE3x+57a8vdgGeUw2ai0MR3p6psdRes3BBR8miEv/gB7fgFKNDKdRJGDuyFVioKN1jA==}
@@ -10595,7 +10593,6 @@ packages:
       react: ^16.8.0 || ^17.0.0
     dependencies:
       object-assign: 4.1.1
-    dev: true
 
   /use-subscription/1.5.1_react@17.0.2:
     resolution: {integrity: sha512-Xv2a1P/yReAjAbhylMfFplFKj9GssgTwN7RlcTxBujFQcloStWNDQdc4g4NRWH9xS4i/FDk04vQBptAXoF3VcA==}
