@@ -103,10 +103,10 @@ importers:
 
   packages/react-native-web-config:
     specifiers:
-      dotenv: ^16.0.0
+      dotenv: ^16.0.1
       webpack: ^5.68.0
     dependencies:
-      dotenv: 16.0.0
+      dotenv: 16.0.1
     devDependencies:
       webpack: 5.68.0
 
@@ -5322,8 +5322,8 @@ packages:
       is-obj: 2.0.0
     dev: true
 
-  /dotenv/16.0.0:
-    resolution: {integrity: sha512-qD9WU0MPM4SWLPJy/r2Be+2WgQj8plChsyrCNQzW/0WjvcJQiKQJ9mH3ZgB3fxbUUxgc/11ZJ0Fi5KiimWGz2Q==}
+  /dotenv/16.0.1:
+    resolution: {integrity: sha512-1K6hR6wtk2FviQ4kEiSjFiH5rpzEVi8WW0x96aztHVMhEspNpc4DVOUTEHtEva5VThQ8IaBX1Pe4gSzpVVUsKQ==}
     engines: {node: '>=12'}
     dev: false
 
