@@ -144,7 +144,7 @@ importers:
   packages/react-native-web-simple-toast:
     specifiers:
       '@babel/runtime': ^7.18.6
-      '@types/react-transition-group': ^4.4.4
+      '@types/react-transition-group': ^4.4.5
       react: ^17.0.2
       react-dom: ^17.0.2
       react-native-simple-toast: ^1.1.3
@@ -153,7 +153,7 @@ importers:
       react-transition-group: 4.4.2_react-dom@17.0.2+react@17.0.2
     devDependencies:
       '@babel/runtime': 7.18.6
-      '@types/react-transition-group': 4.4.4
+      '@types/react-transition-group': 4.4.5
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
       react-native-simple-toast: 1.1.3
@@ -3644,10 +3644,10 @@ packages:
       '@types/react': 17.0.39
     dev: true
 
-  /@types/react-transition-group/4.4.4:
-    resolution: {integrity: sha512-7gAPz7anVK5xzbeQW9wFBDg7G++aPLAFY0QaSMOou9rJZpbuI58WAuJrgu+qR92l61grlnCUe7AFX8KGahAgug==}
+  /@types/react-transition-group/4.4.5:
+    resolution: {integrity: sha512-juKD/eiSM3/xZYzjuzH6ZwpP+/lejltmiS3QEzV/vmb/Q8+HfDmxu+Baga8UEMGBqV88Nbg4l2hY/K2DkyaLLA==}
     dependencies:
-      '@types/react': 17.0.39
+      '@types/react': 17.0.47
     dev: true
 
   /@types/react/17.0.39:
