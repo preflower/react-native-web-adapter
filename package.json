@@ -40,7 +40,7 @@
     "@changesets/cli": "^2.23.1",
     "@commitlint/cli": "^16.3.0",
     "@commitlint/config-conventional": "^16.2.4",
-    "@microsoft/api-extractor": "^7.19.5",
+    "@microsoft/api-extractor": "^7.28.4",
     "@preflower/eslint-config": "^1.0.2",
     "@rollup/plugin-commonjs": "^21.0.3",
     "@rollup/plugin-node-resolve": "^13.1.3",
