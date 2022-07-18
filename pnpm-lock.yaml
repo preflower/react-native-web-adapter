@@ -112,11 +112,11 @@ importers:
 
   packages/react-native-web-fast-image:
     specifiers:
-      '@types/react-native': ^0.66.16
+      '@types/react-native': ^0.69.3
       react-native: ^0.65.1
       react-native-fast-image: ^8.5.11
     devDependencies:
-      '@types/react-native': 0.66.16
+      '@types/react-native': 0.69.3
       react-native: 0.65.2
       react-native-fast-image: 8.5.11_react-native@0.65.2
 
@@ -3631,24 +3631,16 @@ packages:
       '@types/react': 17.0.47
     dev: true
 
-  /@types/react-native/0.66.16:
-    resolution: {integrity: sha512-TsMV/4gW9WTu/6Iuyrm8+UaClIcgJ+1FqVUqDgMvp/Ys+cF+q1GFid3ZPYHYmVZTfOoowY+e3Vd8zFufVL7HLQ==}
+  /@types/react-native/0.69.3:
+    resolution: {integrity: sha512-htIxgvwUlYMFKogynsoMeZgxHq9WVEMJGl1UoVdRFctYCR/gSjapN+vKjxX+eo5qh/WSOYdzC/hOEz0cgLkTtQ==}
     dependencies:
-      '@types/react': 17.0.39
+      '@types/react': 17.0.47
     dev: true
 
   /@types/react-transition-group/4.4.5:
     resolution: {integrity: sha512-juKD/eiSM3/xZYzjuzH6ZwpP+/lejltmiS3QEzV/vmb/Q8+HfDmxu+Baga8UEMGBqV88Nbg4l2hY/K2DkyaLLA==}
     dependencies:
       '@types/react': 17.0.47
-    dev: true
-
-  /@types/react/17.0.39:
-    resolution: {integrity: sha512-UVavlfAxDd/AgAacMa60Azl7ygyQNRwC/DsHZmKgNvPmRR5p70AJ5Q9EAmL2NWOJmeV+vVUI4IAP7GZrN8h8Ug==}
-    dependencies:
-      '@types/prop-types': 15.7.4
-      '@types/scheduler': 0.16.2
-      csstype: 3.0.10
     dev: true
 
   /@types/react/17.0.47:
