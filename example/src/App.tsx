@@ -1,12 +1,10 @@
-import Image from '@preflower/react-native-web-fast-image'
 import './App.css'
+import Map from './map'
 
 function App (): JSX.Element {
   return (
-    <div className="App">
-      <header className="App-header">
-        <Image source={{ uri: 'test' }}/>
-      </header>
+    <div>
+      <Map />
     </div>
   )
 }

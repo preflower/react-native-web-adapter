@@ -1,0 +1,1831 @@
+{
+  "metadata": {
+    "toolPackage": "@microsoft/api-extractor",
+    "toolVersion": "7.19.4",
+    "schemaVersion": 1004,
+    "oldestForwardsCompatibleVersion": 1001,
+    "tsdocConfig": {
+      "$schema": "https://developer.microsoft.com/json-schemas/tsdoc/v0/tsdoc.schema.json",
+      "noStandardTags": true,
+      "tagDefinitions": [
+        {
+          "tagName": "@alpha",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@beta",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@defaultValue",
+          "syntaxKind": "block"
+        },
+        {
+          "tagName": "@decorator",
+          "syntaxKind": "block",
+          "allowMultiple": true
+        },
+        {
+          "tagName": "@deprecated",
+          "syntaxKind": "block"
+        },
+        {
+          "tagName": "@eventProperty",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@example",
+          "syntaxKind": "block",
+          "allowMultiple": true
+        },
+        {
+          "tagName": "@experimental",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@inheritDoc",
+          "syntaxKind": "inline"
+        },
+        {
+          "tagName": "@internal",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@label",
+          "syntaxKind": "inline"
+        },
+        {
+          "tagName": "@link",
+          "syntaxKind": "inline",
+          "allowMultiple": true
+        },
+        {
+          "tagName": "@override",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@packageDocumentation",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@param",
+          "syntaxKind": "block",
+          "allowMultiple": true
+        },
+        {
+          "tagName": "@privateRemarks",
+          "syntaxKind": "block"
+        },
+        {
+          "tagName": "@public",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@readonly",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@remarks",
+          "syntaxKind": "block"
+        },
+        {
+          "tagName": "@returns",
+          "syntaxKind": "block"
+        },
+        {
+          "tagName": "@sealed",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@see",
+          "syntaxKind": "block"
+        },
+        {
+          "tagName": "@throws",
+          "syntaxKind": "block",
+          "allowMultiple": true
+        },
+        {
+          "tagName": "@typeParam",
+          "syntaxKind": "block",
+          "allowMultiple": true
+        },
+        {
+          "tagName": "@virtual",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@betaDocumentation",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@internalRemarks",
+          "syntaxKind": "block"
+        },
+        {
+          "tagName": "@preapproved",
+          "syntaxKind": "modifier"
+        }
+      ],
+      "supportForTags": {
+        "@alpha": true,
+        "@beta": true,
+        "@defaultValue": true,
+        "@decorator": true,
+        "@deprecated": true,
+        "@eventProperty": true,
+        "@example": true,
+        "@experimental": true,
+        "@inheritDoc": true,
+        "@internal": true,
+        "@label": true,
+        "@link": true,
+        "@override": true,
+        "@packageDocumentation": true,
+        "@param": true,
+        "@privateRemarks": true,
+        "@public": true,
+        "@readonly": true,
+        "@remarks": true,
+        "@returns": true,
+        "@sealed": true,
+        "@see": true,
+        "@throws": true,
+        "@typeParam": true,
+        "@virtual": true,
+        "@betaDocumentation": true,
+        "@internalRemarks": true,
+        "@preapproved": true
+      }
+    }
+  },
+  "kind": "Package",
+  "canonicalReference": "@preflower/react-native-web-maps!",
+  "docComment": "",
+  "name": "@preflower/react-native-web-maps",
+  "members": [
+    {
+      "kind": "EntryPoint",
+      "canonicalReference": "@preflower/react-native-web-maps!",
+      "name": "",
+      "members": [
+        {
+          "kind": "TypeAlias",
+          "canonicalReference": "@preflower/react-native-web-maps!GoogleMapProps:type",
+          "docComment": "",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare type GoogleMapProps = "
+            },
+            {
+              "kind": "Reference",
+              "text": "Omit",
+              "canonicalReference": "!Omit:type"
+            },
+            {
+              "kind": "Content",
+              "text": "<"
+            },
+            {
+              "kind": "Reference",
+              "text": "OriginGoogleMapProps",
+              "canonicalReference": "@react-google-maps/api!~GoogleMapProps:interface"
+            },
+            {
+              "kind": "Content",
+              "text": ", 'center' | 'onClick' | 'onDblClick' | 'onDrag' | 'onDragEnd' | 'onLoad'>"
+            },
+            {
+              "kind": "Content",
+              "text": ";"
+            }
+          ],
+          "releaseTag": "Public",
+          "name": "GoogleMapProps",
+          "typeTokenRange": {
+            "startIndex": 1,
+            "endIndex": 5
+          }
+        },
+        {
+          "kind": "Variable",
+          "canonicalReference": "@preflower/react-native-web-maps!MapView:var",
+          "docComment": "",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "MapView: "
+            },
+            {
+              "kind": "Content",
+              "text": "import(\"react\")."
+            },
+            {
+              "kind": "Reference",
+              "text": "ForwardRefExoticComponent",
+              "canonicalReference": "@types/react!~React.ForwardRefExoticComponent:interface"
+            },
+            {
+              "kind": "Content",
+              "text": "<"
+            },
+            {
+              "kind": "Reference",
+              "text": "MapViewProps",
+              "canonicalReference": "@preflower/react-native-web-maps!MapViewProps:interface"
+            },
+            {
+              "kind": "Content",
+              "text": " & import(\"react\")."
+            },
+            {
+              "kind": "Reference",
+              "text": "RefAttributes",
+              "canonicalReference": "@types/react!~React.RefAttributes:interface"
+            },
+            {
+              "kind": "Content",
+              "text": "<"
+            },
+            {
+              "kind": "Reference",
+              "text": "MapViewHandle",
+              "canonicalReference": "@preflower/react-native-web-maps!MapViewHandle:interface"
+            },
+            {
+              "kind": "Content",
+              "text": ">>"
+            }
+          ],
+          "releaseTag": "Public",
+          "name": "MapView",
+          "variableTypeTokenRange": {
+            "startIndex": 1,
+            "endIndex": 10
+          }
+        },
+        {
+          "kind": "Interface",
+          "canonicalReference": "@preflower/react-native-web-maps!MapViewHandle:interface",
+          "docComment": "",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export interface MapViewHandle "
+            }
+          ],
+          "releaseTag": "Public",
+          "name": "MapViewHandle",
+          "members": [
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@preflower/react-native-web-maps!MapViewHandle#animateCamera:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "animateCamera: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "(camera: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Camera",
+                  "canonicalReference": "!\"\\\"react-native-maps\\\"\".Camera:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ") => void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "animateCamera",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 4
+              }
+            },
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@preflower/react-native-web-maps!MapViewHandle#animateToRegion:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "animateToRegion: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "(region: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Region",
+                  "canonicalReference": "!\"\\\"react-native-maps\\\"\".Region:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ") => void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "animateToRegion",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 4
+              }
+            },
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@preflower/react-native-web-maps!MapViewHandle#getCamera:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "getCamera: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "() => "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Camera",
+                  "canonicalReference": "!\"\\\"react-native-maps\\\"\".Camera:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "getCamera",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 3
+              }
+            },
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@preflower/react-native-web-maps!MapViewHandle#setCamera:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "setCamera: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "(camera: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Camera",
+                  "canonicalReference": "!\"\\\"react-native-maps\\\"\".Camera:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ") => void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "setCamera",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 4
+              }
+            }
+          ],
+          "extendsTokenRanges": []
+        },
+        {
+          "kind": "Interface",
+          "canonicalReference": "@preflower/react-native-web-maps!MapViewProps:interface",
+          "docComment": "",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export interface MapViewProps extends "
+            },
+            {
+              "kind": "Reference",
+              "text": "GoogleMapProps",
+              "canonicalReference": "@preflower/react-native-web-maps!GoogleMapProps:type"
+            },
+            {
+              "kind": "Content",
+              "text": " "
+            }
+          ],
+          "releaseTag": "Public",
+          "name": "MapViewProps",
+          "members": [
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@preflower/react-native-web-maps!MapViewProps#customMapStyle:member",
+              "docComment": "/**\n * options.styles\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "customMapStyle?: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "google.maps.MapTypeStyle",
+                  "canonicalReference": "!google.maps.MapTypeStyle:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": "[]"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isOptional": true,
+              "releaseTag": "Public",
+              "name": "customMapStyle",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 3
+              }
+            },
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@preflower/react-native-web-maps!MapViewProps#initialRegion:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "initialRegion?: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Region",
+                  "canonicalReference": "!\"\\\"react-native-maps\\\"\".Region:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isOptional": true,
+              "releaseTag": "Public",
+              "name": "initialRegion",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@preflower/react-native-web-maps!MapViewProps#mapType:member",
+              "docComment": "/**\n * options.mapTypeId\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "mapType?: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "keyof typeof "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "MAP_TYPE_MAPS",
+                  "canonicalReference": "@preflower/react-native-web-maps!MAP_TYPE_MAPS:var"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isOptional": true,
+              "releaseTag": "Public",
+              "name": "mapType",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 3
+              }
+            },
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@preflower/react-native-web-maps!MapViewProps#maxZoomLevel:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "maxZoomLevel?: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "number"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isOptional": true,
+              "releaseTag": "Public",
+              "name": "maxZoomLevel",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@preflower/react-native-web-maps!MapViewProps#minZoomLevel:member",
+              "docComment": "/**\n * options.maxZoom/minZoom\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "minZoomLevel?: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "number"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isOptional": true,
+              "releaseTag": "Public",
+              "name": "minZoomLevel",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@preflower/react-native-web-maps!MapViewProps#onDoublePress:member",
+              "docComment": "/**\n * onDblClick\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "onDoublePress?: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "(event: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "MapEvent",
+                  "canonicalReference": "!\"\\\"react-native-maps\\\"\".MapEvent:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ") => void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isOptional": true,
+              "releaseTag": "Public",
+              "name": "onDoublePress",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 4
+              }
+            },
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@preflower/react-native-web-maps!MapViewProps#onMapReady:member",
+              "docComment": "/**\n * onLoad\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "onMapReady?: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "() => void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isOptional": true,
+              "releaseTag": "Public",
+              "name": "onMapReady",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@preflower/react-native-web-maps!MapViewProps#onPanDrag:member",
+              "docComment": "/**\n * onDrag\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "onPanDrag?: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "(event: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "MapEvent",
+                  "canonicalReference": "!\"\\\"react-native-maps\\\"\".MapEvent:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ") => void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isOptional": true,
+              "releaseTag": "Public",
+              "name": "onPanDrag",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 4
+              }
+            },
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@preflower/react-native-web-maps!MapViewProps#onPress:member",
+              "docComment": "/**\n * onClick\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "onPress?: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "(event: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "MapEvent",
+                  "canonicalReference": "!\"\\\"react-native-maps\\\"\".MapEvent:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ") => void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isOptional": true,
+              "releaseTag": "Public",
+              "name": "onPress",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 4
+              }
+            },
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@preflower/react-native-web-maps!MapViewProps#onRegionChange:member",
+              "docComment": "/**\n * onDrag, onZoomChanged\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "onRegionChange?: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "(region: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Region",
+                  "canonicalReference": "!\"\\\"react-native-maps\\\"\".Region:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", details?: {\n        isGesture: boolean;\n    }) => void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isOptional": true,
+              "releaseTag": "Public",
+              "name": "onRegionChange",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 4
+              }
+            },
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@preflower/react-native-web-maps!MapViewProps#onRegionChangeComplete:member",
+              "docComment": "/**\n * onDragEnd, onZoomChanged\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "onRegionChangeComplete?: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "(region: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Region",
+                  "canonicalReference": "!\"\\\"react-native-maps\\\"\".Region:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ", details?: {\n        isGesture: boolean;\n    }) => void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isOptional": true,
+              "releaseTag": "Public",
+              "name": "onRegionChangeComplete",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 4
+              }
+            },
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@preflower/react-native-web-maps!MapViewProps#region:member",
+              "docComment": "/**\n * center\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "region?: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Region",
+                  "canonicalReference": "!\"\\\"react-native-maps\\\"\".Region:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isOptional": true,
+              "releaseTag": "Public",
+              "name": "region",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@preflower/react-native-web-maps!MapViewProps#style:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "style?: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "StyleProp",
+                  "canonicalReference": "@types/react-native!StyleProp:type"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<"
+                },
+                {
+                  "kind": "Reference",
+                  "text": "ViewStyle",
+                  "canonicalReference": "@types/react-native!ViewStyle:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ">"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isOptional": true,
+              "releaseTag": "Public",
+              "name": "style",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 5
+              }
+            },
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@preflower/react-native-web-maps!MapViewProps#zoomControlEnabled:member",
+              "docComment": "/**\n * options.zoomControl\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "zoomControlEnabled?: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "boolean"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isOptional": true,
+              "releaseTag": "Public",
+              "name": "zoomControlEnabled",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@preflower/react-native-web-maps!MapViewProps#zoomEnabled:member",
+              "docComment": "/**\n * options.gestureHandling = 'none'\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "zoomEnabled?: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "boolean"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isOptional": true,
+              "releaseTag": "Public",
+              "name": "zoomEnabled",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@preflower/react-native-web-maps!MapViewProps#zoomTapEnabled:member",
+              "docComment": "/**\n * options.disableDoubleClickZoom\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "zoomTapEnabled?: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "boolean"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isOptional": true,
+              "releaseTag": "Public",
+              "name": "zoomTapEnabled",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            }
+          ],
+          "extendsTokenRanges": [
+            {
+              "startIndex": 1,
+              "endIndex": 3
+            }
+          ]
+        },
+        {
+          "kind": "Variable",
+          "canonicalReference": "@preflower/react-native-web-maps!Marker:var",
+          "docComment": "",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "Marker: "
+            },
+            {
+              "kind": "Reference",
+              "text": "React.FC",
+              "canonicalReference": "@types/react!~React.FC:type"
+            },
+            {
+              "kind": "Content",
+              "text": "<"
+            },
+            {
+              "kind": "Reference",
+              "text": "MarkerProps",
+              "canonicalReference": "@preflower/react-native-web-maps!MarkerProps:interface"
+            },
+            {
+              "kind": "Content",
+              "text": ">"
+            }
+          ],
+          "releaseTag": "Public",
+          "name": "Marker",
+          "variableTypeTokenRange": {
+            "startIndex": 1,
+            "endIndex": 5
+          }
+        },
+        {
+          "kind": "Interface",
+          "canonicalReference": "@preflower/react-native-web-maps!MarkerProps:interface",
+          "docComment": "",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export interface MarkerProps extends "
+            },
+            {
+              "kind": "Reference",
+              "text": "Omit",
+              "canonicalReference": "!Omit:type"
+            },
+            {
+              "kind": "Content",
+              "text": "<"
+            },
+            {
+              "kind": "Reference",
+              "text": "OriginMarkerProps",
+              "canonicalReference": "@react-google-maps/api!~MarkerProps:interface"
+            },
+            {
+              "kind": "Content",
+              "text": ", 'position' | 'onClick' | 'onDrag' | 'onDragStart' | 'onDragEnd'> "
+            }
+          ],
+          "releaseTag": "Public",
+          "name": "MarkerProps",
+          "members": [
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@preflower/react-native-web-maps!MarkerProps#anchor:member",
+              "docComment": "/**\n * google.maps.Icon.origin\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "anchor?: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Point",
+                  "canonicalReference": "!\"\\\"react-native-maps\\\"\".Point:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isOptional": true,
+              "releaseTag": "Public",
+              "name": "anchor",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@preflower/react-native-web-maps!MarkerProps#coordinate:member",
+              "docComment": "/**\n * position\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "coordinate: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "LatLng",
+                  "canonicalReference": "!\"\\\"react-native-maps\\\"\".LatLng:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "coordinate",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@preflower/react-native-web-maps!MarkerProps#icon:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "icon?: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "string"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isOptional": true,
+              "releaseTag": "Public",
+              "name": "icon",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@preflower/react-native-web-maps!MarkerProps#image:member",
+              "docComment": "/**\n * icon\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "image?: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "string"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isOptional": true,
+              "releaseTag": "Public",
+              "name": "image",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@preflower/react-native-web-maps!MarkerProps#onDrag:member",
+              "docComment": "/**\n * onDrag, onDragStart, onDragEnd\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "onDrag?: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "(event: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "MapEvent",
+                  "canonicalReference": "!\"\\\"react-native-maps\\\"\".MapEvent:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ") => void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isOptional": true,
+              "releaseTag": "Public",
+              "name": "onDrag",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 4
+              }
+            },
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@preflower/react-native-web-maps!MarkerProps#onDragEnd:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "onDragEnd?: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "(event: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "MapEvent",
+                  "canonicalReference": "!\"\\\"react-native-maps\\\"\".MapEvent:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ") => void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isOptional": true,
+              "releaseTag": "Public",
+              "name": "onDragEnd",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 4
+              }
+            },
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@preflower/react-native-web-maps!MarkerProps#onDragStart:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "onDragStart?: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "(event: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "MapEvent",
+                  "canonicalReference": "!\"\\\"react-native-maps\\\"\".MapEvent:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ") => void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isOptional": true,
+              "releaseTag": "Public",
+              "name": "onDragStart",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 4
+              }
+            },
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@preflower/react-native-web-maps!MarkerProps#onPress:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "onPress?: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "(event: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "MapEvent",
+                  "canonicalReference": "!\"\\\"react-native-maps\\\"\".MapEvent:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": "<{\n        action: 'marker-press';\n    }>) => void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isOptional": true,
+              "releaseTag": "Public",
+              "name": "onPress",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 4
+              }
+            },
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@preflower/react-native-web-maps!MarkerProps#scaledSize:member",
+              "docComment": "/**\n * options.scaledSize\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "scaledSize?: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "{\n        width: number;\n        height: number;\n    }"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isOptional": true,
+              "releaseTag": "Public",
+              "name": "scaledSize",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            }
+          ],
+          "extendsTokenRanges": [
+            {
+              "startIndex": 1,
+              "endIndex": 5
+            }
+          ]
+        },
+        {
+          "kind": "Variable",
+          "canonicalReference": "@preflower/react-native-web-maps!Polygon:var",
+          "docComment": "",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "Polygon: "
+            },
+            {
+              "kind": "Reference",
+              "text": "FunctionComponent",
+              "canonicalReference": "@types/react!~React.FunctionComponent:interface"
+            },
+            {
+              "kind": "Content",
+              "text": "<"
+            },
+            {
+              "kind": "Reference",
+              "text": "PolygonProps",
+              "canonicalReference": "@preflower/react-native-web-maps!PolygonProps:interface"
+            },
+            {
+              "kind": "Content",
+              "text": ">"
+            }
+          ],
+          "releaseTag": "Public",
+          "name": "Polygon",
+          "variableTypeTokenRange": {
+            "startIndex": 1,
+            "endIndex": 5
+          }
+        },
+        {
+          "kind": "Interface",
+          "canonicalReference": "@preflower/react-native-web-maps!PolygonProps:interface",
+          "docComment": "",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export interface PolygonProps extends "
+            },
+            {
+              "kind": "Reference",
+              "text": "Omit",
+              "canonicalReference": "!Omit:type"
+            },
+            {
+              "kind": "Content",
+              "text": "<"
+            },
+            {
+              "kind": "Reference",
+              "text": "OriginPolygonProps",
+              "canonicalReference": "@react-google-maps/api!~PolygonProps:interface"
+            },
+            {
+              "kind": "Content",
+              "text": ", 'path' | 'paths' | 'onClick'> "
+            }
+          ],
+          "releaseTag": "Public",
+          "name": "PolygonProps",
+          "members": [
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@preflower/react-native-web-maps!PolygonProps#coordinates:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "coordinates: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "LatLng",
+                  "canonicalReference": "!\"\\\"react-native-maps\\\"\".LatLng:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": "[]"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "coordinates",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 3
+              }
+            },
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@preflower/react-native-web-maps!PolygonProps#fillColor:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "fillColor?: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "string"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isOptional": true,
+              "releaseTag": "Public",
+              "name": "fillColor",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@preflower/react-native-web-maps!PolygonProps#geodesic:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "geodesic?: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "boolean"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isOptional": true,
+              "releaseTag": "Public",
+              "name": "geodesic",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@preflower/react-native-web-maps!PolygonProps#holes:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "holes: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "LatLng",
+                  "canonicalReference": "!\"\\\"react-native-maps\\\"\".LatLng:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": "[][]"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "holes",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 3
+              }
+            },
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@preflower/react-native-web-maps!PolygonProps#onPress:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "onPress?: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "(event: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "MapEvent",
+                  "canonicalReference": "!\"\\\"react-native-maps\\\"\".MapEvent:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ") => void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isOptional": true,
+              "releaseTag": "Public",
+              "name": "onPress",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 4
+              }
+            },
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@preflower/react-native-web-maps!PolygonProps#strokeColor:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "strokeColor?: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "string"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isOptional": true,
+              "releaseTag": "Public",
+              "name": "strokeColor",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@preflower/react-native-web-maps!PolygonProps#strokeWidth:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "strokeWidth?: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "number"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isOptional": true,
+              "releaseTag": "Public",
+              "name": "strokeWidth",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@preflower/react-native-web-maps!PolygonProps#tappable:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "tappable?: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "boolean"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isOptional": true,
+              "releaseTag": "Public",
+              "name": "tappable",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            }
+          ],
+          "extendsTokenRanges": [
+            {
+              "startIndex": 1,
+              "endIndex": 5
+            }
+          ]
+        },
+        {
+          "kind": "Variable",
+          "canonicalReference": "@preflower/react-native-web-maps!Polyline:var",
+          "docComment": "",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "Polyline: "
+            },
+            {
+              "kind": "Reference",
+              "text": "FunctionComponent",
+              "canonicalReference": "@types/react!~React.FunctionComponent:interface"
+            },
+            {
+              "kind": "Content",
+              "text": "<"
+            },
+            {
+              "kind": "Reference",
+              "text": "PolylineProps",
+              "canonicalReference": "@preflower/react-native-web-maps!PolylineProps:interface"
+            },
+            {
+              "kind": "Content",
+              "text": ">"
+            }
+          ],
+          "releaseTag": "Public",
+          "name": "Polyline",
+          "variableTypeTokenRange": {
+            "startIndex": 1,
+            "endIndex": 5
+          }
+        },
+        {
+          "kind": "Interface",
+          "canonicalReference": "@preflower/react-native-web-maps!PolylineProps:interface",
+          "docComment": "",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export interface PolylineProps extends "
+            },
+            {
+              "kind": "Reference",
+              "text": "Omit",
+              "canonicalReference": "!Omit:type"
+            },
+            {
+              "kind": "Content",
+              "text": "<"
+            },
+            {
+              "kind": "Reference",
+              "text": "OriginPolylineProps",
+              "canonicalReference": "@react-google-maps/api!~PolylineProps:interface"
+            },
+            {
+              "kind": "Content",
+              "text": ", 'path' | 'onClick'> "
+            }
+          ],
+          "releaseTag": "Public",
+          "name": "PolylineProps",
+          "members": [
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@preflower/react-native-web-maps!PolylineProps#coordinates:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "coordinates: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "LatLng",
+                  "canonicalReference": "!\"\\\"react-native-maps\\\"\".LatLng:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": "[]"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isOptional": false,
+              "releaseTag": "Public",
+              "name": "coordinates",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 3
+              }
+            },
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@preflower/react-native-web-maps!PolylineProps#geodesic:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "geodesic?: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "boolean"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isOptional": true,
+              "releaseTag": "Public",
+              "name": "geodesic",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@preflower/react-native-web-maps!PolylineProps#onPress:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "onPress?: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "(event: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "MapEvent",
+                  "canonicalReference": "!\"\\\"react-native-maps\\\"\".MapEvent:interface"
+                },
+                {
+                  "kind": "Content",
+                  "text": ") => void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isOptional": true,
+              "releaseTag": "Public",
+              "name": "onPress",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 4
+              }
+            },
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@preflower/react-native-web-maps!PolylineProps#strokeColor:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "strokeColor?: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "string"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isOptional": true,
+              "releaseTag": "Public",
+              "name": "strokeColor",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@preflower/react-native-web-maps!PolylineProps#strokeWidth:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "strokeWidth?: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "number"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isOptional": true,
+              "releaseTag": "Public",
+              "name": "strokeWidth",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "PropertySignature",
+              "canonicalReference": "@preflower/react-native-web-maps!PolylineProps#tappable:member",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "tappable?: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "boolean"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "isOptional": true,
+              "releaseTag": "Public",
+              "name": "tappable",
+              "propertyTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            }
+          ],
+          "extendsTokenRanges": [
+            {
+              "startIndex": 1,
+              "endIndex": 5
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

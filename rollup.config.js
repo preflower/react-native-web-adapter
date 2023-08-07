@@ -1,6 +1,8 @@
 import path from 'path'
 import ts from 'rollup-plugin-typescript2'
 import css from 'rollup-plugin-import-css'
+import commonjs from '@rollup/plugin-commonjs'
+import { nodeResolve } from '@rollup/plugin-node-resolve'
 
 if (!process.env.TARGET) {
   throw new Error('TARGET package must be specified via --environment flag.')
@@ -52,7 +54,7 @@ function createConfig (format, output) {
     }
   })
   hasTSChecked = true
-  console.log(resolve('src/index.ts'))
+
   return {
     input: resolve('src/index.ts'),
     external: [
@@ -67,7 +69,9 @@ function createConfig (format, output) {
       css({
         output: 'index.css',
         minify: true
-      })
+      }),
+      nodeResolve(),
+      commonjs()
     ],
     treeshake: {
       moduleSideEffects: false
