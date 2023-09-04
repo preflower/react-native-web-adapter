@@ -63,7 +63,7 @@ importers:
       react: ^17.0.2
       react-dom: ^17.0.2
       react-native: ^0.72.4
-      react-native-web: ^0.19.7
+      react-native-web: ^0.19.8
       react-native-web-simple-toast: workspace:^0.0.3
       style-loader: ^3.3.3
       typescript: ^4.5.4
@@ -77,7 +77,7 @@ importers:
       '@preflower/react-native-web-maps': link:../packages/react-native-web-maps
       react: 17.0.2
       react-native: 0.72.4_react@17.0.2
-      react-native-web: 0.19.7_react-dom@17.0.2+react@17.0.2
+      react-native-web: 0.19.8_react-dom@17.0.2+react@17.0.2
       react-native-web-simple-toast: link:../packages/react-native-web-simple-toast
     devDependencies:
       '@babel/core': 7.22.11
@@ -128,7 +128,7 @@ importers:
       react-dom: ^17.0.2
       react-native: ^0.72.4
       react-native-maps: ^0.31.1
-      react-native-web: ^0.19.7
+      react-native-web: ^0.19.8
       react-use: ^17.3.2
     dependencies:
       '@react-google-maps/api': 2.7.0_react-dom@17.0.2+react@17.0.2
@@ -138,8 +138,8 @@ importers:
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
       react-native: 0.72.4_react@17.0.2
-      react-native-maps: 0.31.1_b5a0ebc274958a3504a390afd2c48d73
-      react-native-web: 0.19.7_react-dom@17.0.2+react@17.0.2
+      react-native-maps: 0.31.1_1d2bb276dbc0d1d14221d7e65c8131c2
+      react-native-web: 0.19.8_react-dom@17.0.2+react@17.0.2
 
   packages/react-native-web-simple-toast:
     specifiers:
@@ -2109,12 +2109,6 @@ packages:
     dependencies:
       regenerator-runtime: 0.13.11
     dev: true
-
-  /@babel/runtime/7.22.6:
-    resolution: {integrity: sha512-wDb5pWm4WDdF6LFUde3Jl8WzPA+3ZbxYqkC6xAXuD3irdEHN1k0NfTRrJD8ZD378SJ61miMLCqIOXYhd8x+AJQ==}
-    engines: {node: '>=6.9.0'}
-    dependencies:
-      regenerator-runtime: 0.13.11
 
   /@babel/template/7.22.5:
     resolution: {integrity: sha512-X7yV7eiwAxdj9k94NEylvbVHLiVG1nvzCV2EAowhxLTwODV1jl9UzZ48leOC0sH7OnuHrIkllaBgneUykIcZaw==}
@@ -8890,7 +8884,7 @@ packages:
       react-native: 0.72.4
     dev: true
 
-  /react-native-maps/0.31.1_b5a0ebc274958a3504a390afd2c48d73:
+  /react-native-maps/0.31.1_1d2bb276dbc0d1d14221d7e65c8131c2:
     resolution: {integrity: sha512-vipeOPykqLRMCLcLUCZEB+cTdNSlq88NLb0jChY4UGTY5fgOS7GYWkfswy6bW1ayTRLxJS3zpMGFDUY59/ZrXA==}
     peerDependencies:
       react: '>= 16.0'
@@ -8904,20 +8898,20 @@ packages:
       deprecated-react-native-prop-types: 2.3.0
       react: 17.0.2
       react-native: 0.72.4_react@17.0.2
-      react-native-web: 0.19.7_react-dom@17.0.2+react@17.0.2
+      react-native-web: 0.19.8_react-dom@17.0.2+react@17.0.2
     dev: true
 
   /react-native-simple-toast/1.1.4:
     resolution: {integrity: sha512-7D8o8L445XDz7Rdh0pMgCIWuevv1FnGyuD7F8Nz/XhzMInmU4jL5VFJI25VVqQ2uGTaUSuo2ogXSgKnv6p9NJg==}
     dev: true
 
-  /react-native-web/0.19.7_react-dom@17.0.2+react@17.0.2:
-    resolution: {integrity: sha512-AaU4EKCrhdXaKJT3oVm3DH1LJxbA7VEe4TWKBSabGA6+b+CVH2SrCSEKc1pJjqK9iq3gxPcRWnPgrTQ6eHLRmQ==}
+  /react-native-web/0.19.8_react-dom@17.0.2+react@17.0.2:
+    resolution: {integrity: sha512-anqGGHowJdfkYqRxzoQj6DeetJf5hyBlahN6rwksw54gXxgjbsUOe4/PyxqvjwxYafgbVo0oow23BwpsRFdrpw==}
     peerDependencies:
       react: ^18.0.0
       react-dom: ^18.0.0
     dependencies:
-      '@babel/runtime': 7.22.6
+      '@babel/runtime': 7.22.11
       '@react-native/normalize-color': 2.1.0
       fbjs: 3.0.4
       inline-style-prefixer: 6.0.1
@@ -9458,7 +9452,7 @@ packages:
   /rtl-css-js/1.15.0:
     resolution: {integrity: sha512-99Cu4wNNIhrI10xxUaABHsdDqzalrSRTie4GeCmbGVuehm4oj+fIy8fTzB+16pmKe8Bv9rl+hxIBez6KxExTew==}
     dependencies:
-      '@babel/runtime': 7.22.6
+      '@babel/runtime': 7.22.11
     dev: false
 
   /run-parallel/1.2.0:
