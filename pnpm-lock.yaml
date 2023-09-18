@@ -19,7 +19,7 @@ importers:
       minimist: ^1.2.8
       ora: ^5.4.1
       rollup: ^2.79.1
-      rollup-plugin-import-css: ^3.3.1
+      rollup-plugin-import-css: ^3.3.3
       rollup-plugin-typescript2: ^0.31.2
       tslib: ^2.3.1
       typescript: ^4.5.5
@@ -39,7 +39,7 @@ importers:
       minimist: 1.2.8
       ora: 5.4.1
       rollup: 2.79.1
-      rollup-plugin-import-css: 3.3.1_rollup@2.79.1
+      rollup-plugin-import-css: 3.3.3_rollup@2.79.1
       rollup-plugin-typescript2: 0.31.2_rollup@2.79.1+typescript@4.5.5
       tslib: 2.3.1
       typescript: 4.5.5
@@ -3321,8 +3321,8 @@ packages:
       picomatch: 2.3.1
     dev: true
 
-  /@rollup/pluginutils/5.0.2_rollup@2.79.1:
-    resolution: {integrity: sha512-pTd9rIsP92h+B6wWwFbW8RkZv4hiR/xKsqre4SIuAOaOEQRxi0lqLke9k2/7WegC85GgUs9pjmOjCUi3In4vwA==}
+  /@rollup/pluginutils/5.0.4_rollup@2.79.1:
+    resolution: {integrity: sha512-0KJnIoRI8A+a1dqOYLxH8vBf8bphDmty5QvIm2hqm7oFCFYKCAZWWd2hXgMibaPsNDhI0AtpYfQZJG47pt/k4g==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       rollup: ^1.20.0||^2.0.0||^3.0.0
@@ -9509,13 +9509,13 @@ packages:
     dependencies:
       glob: 7.2.0
 
-  /rollup-plugin-import-css/3.3.1_rollup@2.79.1:
-    resolution: {integrity: sha512-/v/OjjDPhhhbua5w4VzHRTtqfyyG950jJSObtM9os5ELGgaHiolNOvpZNk2KeTSFMuhdrXirGXM64bluHgwySA==}
+  /rollup-plugin-import-css/3.3.3_rollup@2.79.1:
+    resolution: {integrity: sha512-s7jyth3n5vpdadyIozb4HpBf4CYJ2kQh0NH9aNXAUuNNQJMlqBjT4n/gm8a9KvDqodR3A4VzyrbTGJz/EJ9AFg==}
     engines: {node: '>=16'}
     peerDependencies:
       rollup: ^2.x.x || ^3.x.x
     dependencies:
-      '@rollup/pluginutils': 5.0.2_rollup@2.79.1
+      '@rollup/pluginutils': 5.0.4_rollup@2.79.1
       rollup: 2.79.1
     dev: true
 
