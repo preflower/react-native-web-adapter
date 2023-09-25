@@ -57,7 +57,7 @@ importers:
       '@vitejs/plugin-react': ^1.3.2
       babel-loader: ^8.3.0
       babel-plugin-module-resolver: ^4.1.0
-      babel-plugin-react-native-web: ^0.19.8
+      babel-plugin-react-native-web: ^0.19.9
       css-loader: ^6.8.1
       html-webpack-plugin: ^5.5.3
       react: ^17.0.2
@@ -89,7 +89,7 @@ importers:
       '@vitejs/plugin-react': 1.3.2
       babel-loader: 8.3.0_a040333321e9a729730bf8c83f7c9856
       babel-plugin-module-resolver: 4.1.0
-      babel-plugin-react-native-web: 0.19.8
+      babel-plugin-react-native-web: 0.19.9
       css-loader: 6.8.1_webpack@5.68.0
       html-webpack-plugin: 5.5.3_webpack@5.68.0
       react-dom: 17.0.2_react@17.0.2
@@ -4635,8 +4635,8 @@ packages:
       - supports-color
     dev: true
 
-  /babel-plugin-react-native-web/0.19.8:
-    resolution: {integrity: sha512-EnxczF63HfVwm4ZrNifEhKRXeHDlzXwCgzmoW8v0Ch81vWXHJogIetVY0MRwg1D63rO0T5Vzz2n+ERgjPd4ULw==}
+  /babel-plugin-react-native-web/0.19.9:
+    resolution: {integrity: sha512-yGimFBeeImDIyu75mEQcmuUoKFZrcEaScCHGsETZ/vcqVBPrnlDw2p9ZJg2/zoTu4BRMqgrpvkCRuG7AHFBiHw==}
     dev: true
 
   /babel-plugin-syntax-trailing-function-commas/7.0.0-beta.0:
