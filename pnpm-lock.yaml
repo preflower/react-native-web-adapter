@@ -19,7 +19,7 @@ importers:
       minimist: ^1.2.8
       ora: ^5.4.1
       rollup: ^2.79.1
-      rollup-plugin-import-css: ^3.3.3
+      rollup-plugin-import-css: ^3.3.4
       rollup-plugin-typescript2: ^0.31.2
       tslib: ^2.3.1
       typescript: ^4.5.5
@@ -39,7 +39,7 @@ importers:
       minimist: 1.2.8
       ora: 5.4.1
       rollup: 2.79.1
-      rollup-plugin-import-css: 3.3.3_rollup@2.79.1
+      rollup-plugin-import-css: 3.3.4_rollup@2.79.1
       rollup-plugin-typescript2: 0.31.2_rollup@2.79.1+typescript@4.5.5
       tslib: 2.3.1
       typescript: 4.5.5
@@ -8757,8 +8757,8 @@ packages:
     dependencies:
       glob: 7.2.0
 
-  /rollup-plugin-import-css/3.3.3_rollup@2.79.1:
-    resolution: {integrity: sha512-s7jyth3n5vpdadyIozb4HpBf4CYJ2kQh0NH9aNXAUuNNQJMlqBjT4n/gm8a9KvDqodR3A4VzyrbTGJz/EJ9AFg==}
+  /rollup-plugin-import-css/3.3.4_rollup@2.79.1:
+    resolution: {integrity: sha512-w5p1Dd1CavAht/P82zB3WX2RVy7O47MlJGSmgrWXTBPAkWHTbOBh/nUPz94IczCD0HLxpuT4AhF24cix7CpZWA==}
     engines: {node: '>=16'}
     peerDependencies:
       rollup: ^2.x.x || ^3.x.x
