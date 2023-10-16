@@ -62,7 +62,7 @@ importers:
       html-webpack-plugin: ^5.5.3
       react: ^17.0.2
       react-dom: ^17.0.2
-      react-native: ^0.72.5
+      react-native: ^0.72.6
       react-native-web: ^0.19.9
       react-native-web-simple-toast: workspace:^0.0.3
       style-loader: ^3.3.3
@@ -76,7 +76,7 @@ importers:
       '@preflower/react-native-web-fast-image': link:../packages/react-native-web-fast-image
       '@preflower/react-native-web-maps': link:../packages/react-native-web-maps
       react: 17.0.2
-      react-native: 0.72.5_react@17.0.2
+      react-native: 0.72.6_react@17.0.2
       react-native-web: 0.19.9_react-dom@17.0.2+react@17.0.2
       react-native-web-simple-toast: link:../packages/react-native-web-simple-toast
     devDependencies:
@@ -113,12 +113,12 @@ importers:
   packages/react-native-web-fast-image:
     specifiers:
       '@types/react-native': ^0.72.3
-      react-native: ^0.72.5
+      react-native: ^0.72.6
       react-native-fast-image: ^8.6.3
     devDependencies:
-      '@types/react-native': 0.72.3_react-native@0.72.5
-      react-native: 0.72.5
-      react-native-fast-image: 8.6.3_react-native@0.72.5
+      '@types/react-native': 0.72.3_react-native@0.72.6
+      react-native: 0.72.6
+      react-native-fast-image: 8.6.3_react-native@0.72.6
 
   packages/react-native-web-maps:
     specifiers:
@@ -126,7 +126,7 @@ importers:
       '@types/google.maps': ^3.48.1
       react: ^17.0.2
       react-dom: ^17.0.2
-      react-native: ^0.72.5
+      react-native: ^0.72.6
       react-native-maps: ^0.31.1
       react-native-web: ^0.19.9
       react-use: ^17.3.2
@@ -137,8 +137,8 @@ importers:
     devDependencies:
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
-      react-native: 0.72.5_react@17.0.2
-      react-native-maps: 0.31.1_48a10f855cc133285050b717cce11f68
+      react-native: 0.72.6_react@17.0.2
+      react-native-maps: 0.31.1_1041c856a7fba47e0efc849f46c5f1d0
       react-native-web: 0.19.9_react-dom@17.0.2+react@17.0.2
 
   packages/react-native-web-simple-toast:
@@ -2563,14 +2563,14 @@ packages:
   /@react-native/normalize-colors/0.72.0:
     resolution: {integrity: sha512-285lfdqSXaqKuBbbtP9qL2tDrfxdOFtIMvkKadtleRQkdOxx+uzGvFr82KHmc/sSiMtfXGp7JnFYWVh4sFl7Yw==}
 
-  /@react-native/virtualized-lists/0.72.8_react-native@0.72.5:
+  /@react-native/virtualized-lists/0.72.8_react-native@0.72.6:
     resolution: {integrity: sha512-J3Q4Bkuo99k7mu+jPS9gSUSgq+lLRSI/+ahXNwV92XgJ/8UgOTxu2LPwhJnBk/sQKxq7E8WkZBnBiozukQMqrw==}
     peerDependencies:
       react-native: '*'
     dependencies:
       invariant: 2.2.4
       nullthrows: 1.1.1
-      react-native: 0.72.5
+      react-native: 0.72.6
 
   /@rollup/plugin-commonjs/21.1.0_rollup@2.79.1:
     resolution: {integrity: sha512-6ZtHx3VHIp2ReNNDxHjuUml6ur+WcQ28N1yHgCQwsbNkQg2suhxGMDQGJOn/KuDxKtd1xuZP5xSTwBA4GQ8hbA==}
@@ -3104,10 +3104,10 @@ packages:
       '@types/react': 17.0.68
     dev: true
 
-  /@types/react-native/0.72.3_react-native@0.72.5:
+  /@types/react-native/0.72.3_react-native@0.72.6:
     resolution: {integrity: sha512-9+g+DBJIY3bG7+ZlYzKPr9kxTQxUuZQgLWZhYK4RlIcrsm3qaJhL2PU2e/K4CjnzznWCo2Islgec94x2z1pG4Q==}
     dependencies:
-      '@react-native/virtualized-lists': 0.72.8_react-native@0.72.5
+      '@react-native/virtualized-lists': 0.72.8_react-native@0.72.6
       '@types/react': 17.0.65
     transitivePeerDependencies:
       - react-native
@@ -8237,16 +8237,16 @@ packages:
   /react-is/18.2.0:
     resolution: {integrity: sha512-xWGDIW6x921xtzPkhiULtthJHoJvBbF3q26fzloPCK0hsvxtPVelvftw3zjbHWSkR2km9Z+4uxbDDK/6Zw9B8w==}
 
-  /react-native-fast-image/8.6.3_react-native@0.72.5:
+  /react-native-fast-image/8.6.3_react-native@0.72.6:
     resolution: {integrity: sha512-Sdw4ESidXCXOmQ9EcYguNY2swyoWmx53kym2zRsvi+VeFCHEdkO+WG1DK+6W81juot40bbfLNhkc63QnWtesNg==}
     peerDependencies:
       react: ^17 || ^18
       react-native: '>=0.60.0'
     dependencies:
-      react-native: 0.72.5
+      react-native: 0.72.6
     dev: true
 
-  /react-native-maps/0.31.1_48a10f855cc133285050b717cce11f68:
+  /react-native-maps/0.31.1_1041c856a7fba47e0efc849f46c5f1d0:
     resolution: {integrity: sha512-vipeOPykqLRMCLcLUCZEB+cTdNSlq88NLb0jChY4UGTY5fgOS7GYWkfswy6bW1ayTRLxJS3zpMGFDUY59/ZrXA==}
     peerDependencies:
       react: '>= 16.0'
@@ -8259,7 +8259,7 @@ packages:
       '@types/geojson': 7946.0.8
       deprecated-react-native-prop-types: 2.3.0
       react: 17.0.2
-      react-native: 0.72.5_react@17.0.2
+      react-native: 0.72.6_react@17.0.2
       react-native-web: 0.19.9_react-dom@17.0.2+react@17.0.2
     dev: true
 
@@ -8286,8 +8286,8 @@ packages:
     transitivePeerDependencies:
       - encoding
 
-  /react-native/0.72.5:
-    resolution: {integrity: sha512-oIewslu5DBwOmo7x5rdzZlZXCqDIna0R4dUwVpfmVteORYLr4yaZo5wQnMeR+H7x54GaMhmgeqp0ZpULtulJFg==}
+  /react-native/0.72.6:
+    resolution: {integrity: sha512-RafPY2gM7mcrFySS8TL8x+TIO3q7oAlHpzEmC7Im6pmXni6n1AuufGaVh0Narbr1daxstw7yW7T9BKW5dpVc2A==}
     engines: {node: '>=16'}
     hasBin: true
     peerDependencies:
@@ -8302,7 +8302,7 @@ packages:
       '@react-native/gradle-plugin': 0.72.11
       '@react-native/js-polyfills': 0.72.1
       '@react-native/normalize-colors': 0.72.0
-      '@react-native/virtualized-lists': 0.72.8_react-native@0.72.5
+      '@react-native/virtualized-lists': 0.72.8_react-native@0.72.6
       abort-controller: 3.0.0
       anser: 1.4.10
       base64-js: 1.5.1
@@ -8336,8 +8336,8 @@ packages:
       - supports-color
       - utf-8-validate
 
-  /react-native/0.72.5_react@17.0.2:
-    resolution: {integrity: sha512-oIewslu5DBwOmo7x5rdzZlZXCqDIna0R4dUwVpfmVteORYLr4yaZo5wQnMeR+H7x54GaMhmgeqp0ZpULtulJFg==}
+  /react-native/0.72.6_react@17.0.2:
+    resolution: {integrity: sha512-RafPY2gM7mcrFySS8TL8x+TIO3q7oAlHpzEmC7Im6pmXni6n1AuufGaVh0Narbr1daxstw7yW7T9BKW5dpVc2A==}
     engines: {node: '>=16'}
     hasBin: true
     peerDependencies:
@@ -8352,7 +8352,7 @@ packages:
       '@react-native/gradle-plugin': 0.72.11
       '@react-native/js-polyfills': 0.72.1
       '@react-native/normalize-colors': 0.72.0
-      '@react-native/virtualized-lists': 0.72.8_react-native@0.72.5
+      '@react-native/virtualized-lists': 0.72.8_react-native@0.72.6
       abort-controller: 3.0.0
       anser: 1.4.10
       base64-js: 1.5.1
