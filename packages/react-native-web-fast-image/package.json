@@ -23,7 +23,7 @@
     "react-native": "*"
   },
   "devDependencies": {
-    "@types/react-native": "^0.72.7",
+    "@types/react-native": "^0.72.8",
     "react-native": "^0.72.7",
     "react-native-fast-image": "^8.6.3"
   },
