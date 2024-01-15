@@ -17,7 +17,7 @@
   "devDependencies": {
     "@babel/core": "^7.23.7",
     "@babel/preset-react": "^7.23.3",
-    "@babel/runtime": "^7.23.7",
+    "@babel/runtime": "^7.23.8",
     "@svgr/webpack": "^6.5.1",
     "@types/react": "^17.0.74",
     "@types/react-dom": "^17.0.25",
