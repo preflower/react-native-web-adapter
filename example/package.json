@@ -15,9 +15,9 @@
     "react-native-web-simple-toast": "workspace:^0.0.3"
   },
   "devDependencies": {
-    "@babel/core": "^7.24.7",
+    "@babel/core": "^7.24.8",
     "@babel/preset-react": "^7.24.7",
-    "@babel/runtime": "^7.24.7",
+    "@babel/runtime": "^7.24.8",
     "@svgr/webpack": "^6.5.1",
     "@types/react": "^17.0.80",
     "@types/react-dom": "^17.0.25",
