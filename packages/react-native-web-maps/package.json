@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "@react-google-maps/api": "^2.20.7",
-    "@types/google.maps": "^3.48.1",
+    "@types/google.maps": "^3.58.1",
     "react-use": "^17.3.2"
   },
   "devDependencies": {
