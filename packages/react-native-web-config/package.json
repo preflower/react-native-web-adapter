@@ -23,7 +23,7 @@
     "webpack": "*"
   },
   "dependencies": {
-    "dotenv": "^16.0.3"
+    "dotenv": "^16.6.1"
   },
   "devDependencies": {
     "webpack": "^5.100.2"
