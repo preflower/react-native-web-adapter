@@ -26,7 +26,7 @@
     "dotenv": "^16.6.1"
   },
   "devDependencies": {
-    "webpack": "^5.102.1"
+    "webpack": "^5.103.0"
   },
   "publishConfig": {
     "access": "public"
