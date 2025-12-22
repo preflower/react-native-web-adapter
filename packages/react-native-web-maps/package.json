@@ -23,7 +23,7 @@
     "react-native-web": "*"
   },
   "dependencies": {
-    "@react-google-maps/api": "^2.20.7",
+    "@react-google-maps/api": "^2.20.8",
     "@types/google.maps": "^3.58.1",
     "react-use": "^17.6.0"
   },
