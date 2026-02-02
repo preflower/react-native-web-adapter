@@ -42,7 +42,7 @@
     "@commitlint/config-conventional": "^16.2.4",
     "@microsoft/api-extractor": "^7.56.0",
     "@preflower/eslint-config": "^1.0.2",
-    "@rollup/plugin-commonjs": "^21.1.0",
+    "@rollup/plugin-commonjs": "^29.0.0",
     "@rollup/plugin-node-resolve": "^13.3.0",
     "eslint": "^8.57.1",
     "execa": "^4.1.0",
